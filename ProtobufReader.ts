@@ -46,26 +46,39 @@ export default class ProtobufReader {
 
     return parsed;
   }
-  unknownProcess() {
-    const parsed: Record<number, any> = {}; //TODO - better type for this
-
+  process(proto: any = {}) {
+    const parsed: Record<number | string, any> = {};
     const data = this.raw();
+
+    for (const key in data) {
+      if (proto && proto[key]) {
+        if (Array.isArray(data[key])) {
+          const records = data[key] as Unknown[];
+        } else {
+          const record = data[key] as Unknown;
+          record.typeGuess = proto[key].type;
+          record.name = proto[key].name;
+        }
+      }
+    }
+
     for (const key in data) {
       if (Array.isArray(data[key])) {
         const records = [];
-        for (const record of data[key] as Unknown[]) {
+        const recordData = data[key] as Unknown[];
+        for (const record of recordData) {
           records.push(this.parseRecord(record));
         }
         parsed[key] = records;
       } else {
-        const d = data[key] as Unknown;
-        parsed[key] = this.parseRecord(d);
+        const record = data[key] as Unknown;
+        parsed[record.name] = this.parseRecord(record, proto[key]);
       }
     }
 
     return parsed;
   }
-  parseRecord(data: Unknown) {
+  parseRecord(data: Unknown, proto: any = {}) {
     try {
       switch (data.typeGuess) {
         case "varint":
@@ -74,10 +87,10 @@ export default class ProtobufReader {
           return data.buffer.bytes.toString();
         case "packed":
           const packed = new PackedMessage(data.buffer.bytes, data.key);
-          return packed.process();
+          return packed.process(proto.fields);
         case "group":
           const group = new Group(data.buffer.bytes, data.key);
-          return group.process();
+          return group.process(proto.fields);
       }
     } catch (e) {
       return data;

@@ -1,0 +1,84 @@
+{
+  "1": {
+    "name": "stories",
+    "type": "packed",
+    "fields": {
+      "1": {
+        "name": "type",
+        "type": "varint"
+      },
+      "3": {
+        "name": "id",
+        "type": "varint"
+      },
+      "4": {
+        "name": "viewType",
+        "type": "string"
+      },
+      "5": {
+        "name": "startTime",
+        "type": "varint"
+      },
+      "6": {
+        "name": "endTime",
+        "type": "varint"
+      },
+      "8": {
+        "name": "order",
+        "type": "varint"
+      },
+      "10": {
+        "name": "images",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "id",
+            "type": "string"
+          },
+          "2": {
+            "name": "url",
+            "type": "string"
+          },
+          "3": {
+            "name": "width",
+            "type": "varint"
+          },
+          "4": {
+            "name": "height",
+            "type": "varint"
+          },
+          "6": {
+            "name": "rect",
+            "type": "group",
+            "fields": {
+              "3": {
+                "name": "width",
+                "type": "varint"
+              },
+              "4": {
+                "name": "height",
+                "type": "varint"
+              }
+            }
+          }
+        }
+      },
+      "11": {
+        "name": "title",
+        "type": "string"
+      },
+      "13": {
+        "name": "status",
+        "type": "varint"
+      }
+    }
+  },
+  "100": {
+    "name": "version",
+    "type": "string"
+  },
+  "101": {
+    "name": "id",
+    "type": "varint"
+  }
+}

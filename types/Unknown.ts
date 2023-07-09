@@ -11,11 +11,13 @@ export default class Unknown extends BaseType {
     | "group"
     | "packed"
     | "?";
+  name: string;
 
   constructor(buffer: Buffer, key: Key) {
     super(buffer, key);
     this.str = buffer.subarray(0, 20).toString();
     this.typeGuess = this.guessType();
+    this.name = key.field.toString();
   }
   isString(str: string) {
     return /^[a-zA-Z0-9 !\?#,.\<\>\+\\\/="';&\n\-:\[\]•_@\(\)]+$/.test(str);
@@ -32,6 +34,7 @@ export default class Unknown extends BaseType {
   guessType() {
     switch (this.key.wire) {
       case 0:
+        //repeating varints?
         return "varint";
       case 2:
         //is it a string?
