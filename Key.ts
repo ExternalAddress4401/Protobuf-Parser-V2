@@ -11,8 +11,7 @@ export default class Key {
   validate() {
     const wires = [0, 1, 2, 5];
     if (!wires.includes(this.wire)) {
-      console.log(`Found wire ${this.wire} which is invalid.`);
-      process.exit();
+      throw new Error(`Found wire ${this.wire} which is invalid.`);
     }
   }
 }
