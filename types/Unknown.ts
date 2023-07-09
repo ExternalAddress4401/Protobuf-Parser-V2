@@ -14,11 +14,11 @@ export default class Unknown extends BaseType {
 
   constructor(buffer: Buffer, key: Key) {
     super(buffer, key);
-    this.str = buffer.subarray(0, 10).toString();
+    this.str = buffer.subarray(0, 20).toString();
     this.typeGuess = this.guessType();
   }
   isString(str: string) {
-    return /^[a-zA-Z0-9 !\?#,.\<\>\+\\\/="';&\n\-:\[\]•_@]+$/.test(str);
+    return /^[a-zA-Z0-9 !\?#,.\<\>\+\\\/="';&\n\-:\[\]•_@\(\)]+$/.test(str);
   }
   isRepeatingString() {
     while (this.buffer.hasNext()) {

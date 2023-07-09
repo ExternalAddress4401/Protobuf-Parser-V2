@@ -13,7 +13,7 @@ export default class ProtobufReader {
     this.bytes = file;
   }
   raw() {
-    const parsed: Record<number, Unknown> = {};
+    const parsed: Record<number, Unknown | Unknown[]> = {};
 
     while (this.hasNext()) {
       const key = this.readKey();
@@ -26,7 +26,17 @@ export default class ProtobufReader {
           break;
         case 2:
           const length = this.readVarint();
-          parsed[key.field] = new Unknown(this.slice(length), key);
+          if (parsed[key.field] && !Array.isArray(parsed[key.field])) {
+            parsed[key.field] = [parsed[key.field]] as Unknown[];
+          }
+          if (Array.isArray(parsed[key.field])) {
+            (parsed[key.field] as Unknown[]).push(
+              new Unknown(this.slice(length), key)
+            );
+          } else {
+            parsed[key.field] = new Unknown(this.slice(length), key);
+          }
+
           break;
         case 5:
           this.index += 4;
@@ -41,32 +51,37 @@ export default class ProtobufReader {
 
     const data = this.raw();
     for (const key in data) {
-      try {
-        switch (data[key].typeGuess) {
-          case "varint":
-            parsed[key] = data[key].buffer.readVarint();
-            break;
-          case "string":
-            parsed[key] = data[key].buffer.bytes.toString();
-            break;
-          case "packed":
-            const packed = new PackedMessage(
-              data[key].buffer.bytes,
-              data[key].key
-            );
-            parsed[key] = packed.process();
-            break;
-          case "group":
-            const group = new Group(data[key].buffer.bytes, data[key].key);
-            parsed[key] = group.process();
-            break;
+      if (Array.isArray(data[key])) {
+        const records = [];
+        for (const record of data[key] as Unknown[]) {
+          records.push(this.parseRecord(record));
         }
-      } catch (e) {
-        parsed[key] = data[key];
+        parsed[key] = records;
+      } else {
+        const d = data[key] as Unknown;
+        parsed[key] = this.parseRecord(d);
       }
     }
 
     return parsed;
+  }
+  parseRecord(data: Unknown) {
+    try {
+      switch (data.typeGuess) {
+        case "varint":
+          return data.buffer.readVarint();
+        case "string":
+          return data.buffer.bytes.toString();
+        case "packed":
+          const packed = new PackedMessage(data.buffer.bytes, data.key);
+          return packed.process();
+        case "group":
+          const group = new Group(data.buffer.bytes, data.key);
+          return group.process();
+      }
+    } catch (e) {
+      return data;
+    }
   }
   readVarintBuffer() {
     let length = 0;
