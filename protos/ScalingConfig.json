@@ -30,5 +30,27 @@
         }
       }
     }
+  },
+  "3": {
+    "name": "groups",
+    "type": "group",
+    "fields": {
+      "1": {
+        "name": "id",
+        "type": "string"
+      },
+      "2": {
+        "name": "priority",
+        "type": "varint"
+      },
+      "3": {
+        "name": "requirements",
+        "type": "group"
+      },
+      "4": {
+        "name": "level_id",
+        "type": "string"
+      }
+    }
   }
 }

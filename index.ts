@@ -10,4 +10,4 @@ const proto = JSON.parse(
 );
 
 const raw = reader.process(proto);
-console.log(raw.levels[0].module);
+console.log(raw);
