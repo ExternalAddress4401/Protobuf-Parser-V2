@@ -1,11 +1,13 @@
 import fs from "fs";
 import ProtobufReader from "./ProtobufReader";
 
-const file = fs.readFileSync("./cms/NewsFeed.bytes");
+const file = fs.readFileSync("./cms/ScalingConfig.bytes");
 
 const reader = new ProtobufReader(file);
 
-const proto = JSON.parse(fs.readFileSync("./protos/NewsFeed.json").toString());
+const proto = JSON.parse(
+  fs.readFileSync("./protos/ScalingConfig.json").toString()
+);
 
-const raw = reader.process();
-console.log(raw);
+const raw = reader.process(proto);
+console.log(raw.levels[0].module);

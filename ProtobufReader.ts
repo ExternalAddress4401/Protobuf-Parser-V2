@@ -4,6 +4,7 @@ import { padBinary } from "./Utilities";
 import Group from "./types/Group";
 import PackedMessage from "./types/PackedMessage";
 import Unknown from "./types/Unknown";
+import fs from "fs";
 
 export default class ProtobufReader {
   bytes: Buffer;
@@ -54,6 +55,10 @@ export default class ProtobufReader {
       if (proto && proto[key]) {
         if (Array.isArray(data[key])) {
           const records = data[key] as Unknown[];
+          for (const record of records) {
+            record.typeGuess = proto[key].type;
+            record.name = proto[key].name;
+          }
         } else {
           const record = data[key] as Unknown;
           record.typeGuess = proto[key].type;
@@ -67,9 +72,32 @@ export default class ProtobufReader {
         const records = [];
         const recordData = data[key] as Unknown[];
         for (const record of recordData) {
-          records.push(this.parseRecord(record));
+          records.push(this.parseRecord(record, proto[key]));
         }
-        parsed[key] = records;
+        parsed[recordData[0].name] = records;
+      } else if (proto[key]?.type === "enum") {
+        const record = data[key] as Unknown;
+        //is there an enum defined?
+        const slice = proto.enums[parsed.type];
+        if (!slice) {
+          console.error(`Missing slice for enum ${parsed.type}`);
+          parsed[record.name] = record;
+        } else {
+          try {
+            parsed[record.name] = this.parseRecord(
+              record,
+              JSON.parse(
+                fs
+                  .readFileSync(
+                    `./protos/slices/${proto.enums[parsed.type]}.json`
+                  )
+                  .toString()
+              )
+            );
+          } catch (e) {
+            console.log(e);
+          }
+        }
       } else {
         const record = data[key] as Unknown;
         parsed[record.name] = this.parseRecord(record, proto[key]);
@@ -81,6 +109,8 @@ export default class ProtobufReader {
   parseRecord(data: Unknown, proto: any = {}) {
     try {
       switch (data.typeGuess) {
+        case "boolean":
+          return data.buffer.readVarint() === 1;
         case "varint":
           return data.buffer.readVarint();
         case "string":
@@ -91,6 +121,9 @@ export default class ProtobufReader {
         case "group":
           const group = new Group(data.buffer.bytes, data.key);
           return group.process(proto.fields);
+        case "enum":
+          const e = new Group(data.buffer.bytes, data.key);
+          return e.process(proto);
       }
     } catch (e) {
       return data;

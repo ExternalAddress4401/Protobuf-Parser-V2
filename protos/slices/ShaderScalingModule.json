@@ -1,0 +1,10 @@
+{
+  "1": {
+    "name": "LOD",
+    "type": "varint"
+  },
+  "4": {
+    "name": "MaxLights",
+    "type": "varint"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "1": {
+    "name": "translations",
+    "type": "group",
+    "fields": {
+      "1": {
+        "name": "id",
+        "type": "string"
+      },
+      "2": {
+        "name": "translations",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "key",
+            "type": "string"
+          },
+          "2": {
+            "name": "value",
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "2": {
+    "name": "languages",
+    "type": "group",
+    "fields": {
+      "1": {
+        "name": "id",
+        "type": "string"
+      },
+      "2": {
+        "name": "nativeName",
+        "type": "string"
+      },
+      "3": {
+        "name": "enabled",
+        "type": "varint"
+      },
+      "4": {
+        "name": "defaultCulture",
+        "type": "string"
+      },
+      "5": {
+        "name": "exportToTransifex",
+        "type": "varint"
+      },
+      "6": {
+        "name": "transifexId",
+        "type": "string"
+      }
+    }
+  },
+  "100": {
+    "name": "version",
+    "type": "string"
+  },
+  "102": {
+    "name": "settings",
+    "type": "group"
+  },
+  "105": {
+    "name": "bakeSettings",
+    "type": "group"
+  }
+}

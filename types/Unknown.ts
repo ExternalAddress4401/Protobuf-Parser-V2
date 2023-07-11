@@ -5,10 +5,12 @@ export default class Unknown extends BaseType {
   str: string;
   typeGuess:
     | "varint"
+    | "boolean"
     | "string"
     | "string-repeat"
     | "float"
     | "group"
+    | "enum"
     | "packed"
     | "?";
   name: string;
@@ -34,7 +36,6 @@ export default class Unknown extends BaseType {
   guessType() {
     switch (this.key.wire) {
       case 0:
-        //repeating varints?
         return "varint";
       case 2:
         //is it a string?
@@ -47,6 +48,8 @@ export default class Unknown extends BaseType {
             return "string-repeat";
           }
         } catch (e) {}
+
+        //is it repeating varints?
 
         //reset the mangled index
         this.buffer.index = 0;

@@ -23,6 +23,10 @@
         "name": "endTime",
         "type": "varint"
       },
+      "7": {
+        "name": "popup",
+        "type": "varint"
+      },
       "8": {
         "name": "order",
         "type": "varint"
