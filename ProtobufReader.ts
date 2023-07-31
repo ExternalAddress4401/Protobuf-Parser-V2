@@ -40,7 +40,7 @@ export default class ProtobufReader {
 
           break;
         case 5:
-          this.index += 4;
+          parsed[key.field] = new Unknown(this.readFloatBuffer(), key);
           break;
       }
     }
@@ -59,6 +59,10 @@ export default class ProtobufReader {
             record.typeGuess = proto[key].type;
             record.name = proto[key].name;
           }
+        } else if (proto[key].chunk) {
+          const record = data[key] as Unknown;
+          record.typeGuess = "group";
+          record.name = proto[key].name;
         } else {
           const record = data[key] as Unknown;
           record.typeGuess = proto[key].type;
@@ -98,6 +102,20 @@ export default class ProtobufReader {
             console.log(e);
           }
         }
+      } else if (proto[key]?.chunk) {
+        const record = data[key] as Unknown;
+        try {
+          parsed[record.name] = this.parseRecord(
+            record,
+            JSON.parse(
+              fs
+                .readFileSync(`./protos/chunks/${proto[key].chunk}.json`)
+                .toString()
+            )
+          );
+        } catch (e) {
+          console.log(e);
+        }
       } else {
         const record = data[key] as Unknown;
         parsed[record.name] = this.parseRecord(record, proto[key]);
@@ -124,6 +142,8 @@ export default class ProtobufReader {
         case "enum":
           const e = new Group(data.buffer.bytes, data.key);
           return e.process(proto);
+        case "float":
+          return data.buffer.readFloat();
       }
     } catch (e) {
       return data;
@@ -155,6 +175,14 @@ export default class ProtobufReader {
     }
 
     return parseInt(bytes.reverse().join(""), 2);
+  }
+  readFloatBuffer() {
+    return this.slice(4);
+  }
+  readFloat() {
+    const float = this.bytes.readFloatLE(this.index);
+    this.index += 4;
+    return float;
   }
   readGroup() {
     return this.slice(this.readVarint());
