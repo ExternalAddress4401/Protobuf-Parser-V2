@@ -1,0 +1,185 @@
+{
+  "1": {
+    "name": "segments",
+    "type": "packed",
+    "fields": {
+      "1": {
+        "name": "beatmaps",
+        "type": "packed",
+        "fields": {
+          "1": {
+            "name": "beatmap_id",
+            "type": "varint"
+          },
+          "2": {
+            "name": "buyCost",
+            "type": "varint"
+          }
+        }
+      }
+    }
+  },
+  "2": {
+    "name": "playActiveDurationMsecs",
+    "type": "varint"
+  },
+  "3": {
+    "name": "numPlayers",
+    "type": "varint"
+  },
+  "4": {
+    "name": "numAttempts",
+    "type": "varint"
+  },
+  "6": {
+    "name": "gachaRewards",
+    "type": "group",
+    "fields": {
+      "3": {
+        "name": "uniqueRewardEveryN",
+        "type": "varint"
+      },
+      "4": {
+        "name": "uniqueTier",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "weight",
+            "type": "varint"
+          },
+          "2": {
+            "name": "rewards",
+            "type": "packed",
+            "fields": {
+              "1": {
+                "name": "type",
+                "type": "varint"
+              },
+              "2": {
+                "name": "slice",
+                "type": "enum"
+              },
+              "enums": {
+                "6": "BeatmapRewardTemplate",
+                "8": "GachaBoxRewardTemplate",
+                "13": "EmojiRewardTemplate",
+                "14": "CallingCardRewardTemplate"
+              }
+            }
+          }
+        }
+      },
+      "5": {
+        "name": "repeatableTiers",
+        "type": "packed",
+        "fields": {
+          "1": {
+            "name": "weight",
+            "type": "varint"
+          },
+          "2": {
+            "name": "rewards",
+            "type": "packed",
+            "fields": {
+              "1": {
+                "name": "type",
+                "type": "varint"
+              },
+              "2": {
+                "name": "slice",
+                "type": "enum"
+              },
+              "enums": {
+                "2": "CurrencyRewardTemplate",
+                "8": "GachaBoxRewardTemplate"
+              }
+            }
+          },
+          "3": {
+            "name": "fallbackReward",
+            "type": "group",
+            "fields": {
+              "1": {
+                "name": "type",
+                "type": "varint"
+              },
+              "2": {
+                "name": "slice",
+                "type": "enum"
+              },
+              "enums": {
+                "2": "CurrencyRewardTemplate"
+              }
+            }
+          }
+        }
+      },
+      "6": {
+        "name": "gachaRewards",
+        "type": "group",
+        "fields": {
+          "6": {
+            "name": "displayRandomSeed",
+            "type": "varint"
+          }
+        }
+      },
+      "7": {
+        "name": "rewardTiers",
+        "type": "packed",
+        "fields": {
+          "1": {
+            "name": "position",
+            "type": "varint"
+          },
+          "2": {
+            "name": "count",
+            "type": "varint"
+          }
+        }
+      },
+      "10": {
+        "name": "eventEndedCooloffDurationMsecs",
+        "type": "varint"
+      },
+      "11": {
+        "name": "datesDetailsTxt",
+        "type": "string"
+      },
+      "12": {
+        "name": "numAiPlayers",
+        "type": "string"
+      },
+      "15": {
+        "name": "spinTicketCost",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "currency_id",
+            "type": "varint"
+          },
+          "2": {
+            "name": "amount",
+            "type": "varint"
+          }
+        }
+      },
+      "16": {
+        "name": "bannerImage",
+        "chunk": "Image"
+      },
+      "17": {
+        "name": "bannerGradient",
+        "chunk": "Gradient"
+      },
+      "19": {
+        "name": "eventFlavourTxt",
+        "type": "string"
+      },
+      "21": {
+        "name": "localNoti_laterSegmentsMsgTxt",
+        "type": "string"
+      }
+    }
+  }
+}

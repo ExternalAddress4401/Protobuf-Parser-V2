@@ -1,0 +1,99 @@
+{
+  "3": {
+    "name": "LiveOpsEvents",
+    "type": "packed",
+    "fields": {
+      "1": {
+        "name": "type",
+        "type": "varint"
+      },
+      "2": {
+        "name": "slice",
+        "type": "enum"
+      },
+      "3": {
+        "name": "id",
+        "type": "varint"
+      },
+      "4": {
+        "name": "idLabel",
+        "type": "string"
+      },
+      "5": {
+        "name": "nameTxt",
+        "type": "string"
+      },
+      "6": {
+        "name": "name_id",
+        "type": "string"
+      },
+      "7": {
+        "name": "startTimeMsecs",
+        "type": "varint"
+      },
+      "8": {
+        "name": "endTimeMsecs",
+        "type": "varint"
+      },
+      "9": {
+        "name": "useLocalTime",
+        "type": "boolean"
+      },
+      "10": {
+        "name": "translation",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "default",
+            "type": "string"
+          },
+          "2": {
+            "name": "languages",
+            "type": "string"
+          },
+          "3": {
+            "name": "translations",
+            "type": "packed",
+            "fields": {
+              "1": {
+                "name": "field",
+                "type": "string"
+              },
+              "2": {
+                "name": "strings",
+                "type": "group",
+                "fields": {
+                  "1": {
+                    "name": "language",
+                    "type": "string"
+                  },
+                  "2": {
+                    "name": "translated",
+                    "type": "string"
+                  }
+                }
+              },
+              "5": {
+                "name": "unknown1",
+                "type": "varint"
+              },
+              "6": {
+                "name": "type",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "enums": {
+        "2": "LiveOpsSongShuffleEventTemplate",
+        "3": "LiveOpsLeaderboardEventTemplate",
+        "4": "LiveOpsTotaliserEventTemplate"
+      }
+    }
+  },
+  "100": {
+    "name": "version",
+    "type": "string"
+  }
+}

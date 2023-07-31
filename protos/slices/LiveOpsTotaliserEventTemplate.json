@@ -1,0 +1,96 @@
+{
+  "3": {
+    "name": "refreshDurationMsecs",
+    "type": "varint"
+  },
+  "5": {
+    "name": "rewards",
+    "type": "packed",
+    "fields": {
+      "1": {
+        "name": "countRequired",
+        "type": "varint"
+      },
+      "2": {
+        "name": "reward",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "type",
+            "type": "varint"
+          },
+          "2": {
+            "name": "slice",
+            "type": "enum"
+          },
+          "enums": {
+            "6": "BeatmapRewardTemplate",
+            "8": "GachaBoxRewardTemplate",
+            "13": "EmojiRewardTemplate",
+            "14": "CallingCardRewardTemplate",
+            "19": "TrackSkinRewardTemplate",
+            "20": "CosmeticGachaBoxRewardTemplate"
+          }
+        }
+      },
+      "3": {
+        "name": "isMilestone",
+        "type": "boolean"
+      }
+    }
+  },
+  "11": {
+    "name": "tileRimColour",
+    "type": "varint"
+  },
+  "13": {
+    "name": "boosterShopEnabled",
+    "type": "boolean"
+  },
+  "14": {
+    "name": "boosterShopPricePoint_id",
+    "type": "varint"
+  },
+  "15": {
+    "name": "boosterShopRewards",
+    "type": "packed",
+    "fields": {
+      "1": {
+        "name": "type",
+        "type": "varint"
+      },
+      "2": {
+        "name": "slice",
+        "type": "enum"
+      },
+      "enums": {
+        "2": "CurrencyRewardTemplate",
+        "11": "HardGatePassRewardTemplate"
+      }
+    }
+  },
+  "16": {
+    "name": "boosterShopMaxPurchases",
+    "type": "varint"
+  },
+  "18": {
+    "name": "tileIcon",
+    "chunk": "Image"
+  },
+  "19": {
+    "name": "eventDescriptionTxt",
+    "type": "string"
+  },
+  "20": {
+    "name": "uiBackgroundImage",
+    "chunk": "Image"
+  },
+  "21": {
+    "name": "singleSongSwapGemCost",
+    "type": "varint"
+  },
+  "22": {
+    "name": "refreshAllSongsGemCost",
+    "type": "varint"
+  }
+}

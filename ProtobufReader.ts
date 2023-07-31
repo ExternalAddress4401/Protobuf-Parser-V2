@@ -85,6 +85,7 @@ export default class ProtobufReader {
         const slice = proto.enums[parsed.type];
         if (!slice) {
           console.error(`Missing slice for enum ${parsed.type}`);
+          console.log(parsed);
           parsed[record.name] = record;
         } else {
           try {
