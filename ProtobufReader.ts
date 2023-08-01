@@ -145,6 +145,13 @@ export default class ProtobufReader {
           return e.process(proto);
         case "float":
           return data.buffer.readFloat();
+        case "string-repeat":
+          const strs = [];
+          data.buffer.index = 0;
+          while (data.buffer.hasNext()) {
+            strs.push(data.buffer.slice(data.buffer.readVarint()).toString());
+          }
+          return strs;
       }
     } catch (e) {
       return data;
