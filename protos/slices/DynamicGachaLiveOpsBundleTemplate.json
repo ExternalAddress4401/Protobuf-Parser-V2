@@ -1,0 +1,16 @@
+{
+  "2": {
+    "name": "reward",
+    "type": "group",
+    "fields": {
+      "1": {
+        "name": "gachaBoxTemplate_id",
+        "type": "varint"
+      },
+      "2": {
+        "name": "dataSets_id",
+        "type": "varint"
+      }
+    }
+  }
+}

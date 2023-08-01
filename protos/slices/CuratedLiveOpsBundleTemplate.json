@@ -1,0 +1,27 @@
+{
+  "2": {
+    "name": "rewards",
+    "type": "group",
+    "fields": {
+      "2": {
+        "name": "rewards",
+        "type": "packed",
+        "fields": {
+          "1": {
+            "name": "type",
+            "type": "varint"
+          },
+          "2": {
+            "name": "slice",
+            "type": "enum"
+          },
+          "enums": {
+            "2": "CurrencyRewardTemplate",
+            "11": "HardGatePassRewardTemplate",
+            "17": "CardRewardTemplate"
+          }
+        }
+      }
+    }
+  }
+}

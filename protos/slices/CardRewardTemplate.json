@@ -1,0 +1,16 @@
+{
+  "2": {
+    "name": "data",
+    "type": "group",
+    "fields": {
+      "1": {
+        "name": "card_id",
+        "type": "varint"
+      },
+      "2": {
+        "name": "amount",
+        "type": "varint"
+      }
+    }
+  }
+}
