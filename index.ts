@@ -1,6 +1,6 @@
 import ProtobufReader from "./ProtobufReader";
+import ProtobufWriter from "./ProtobufWriter";
 import * as CMSRequester from "./server/CMSRequester";
-import fs from "fs";
 
 type CMS =
   | "GameConfig"
@@ -16,4 +16,4 @@ type CMS =
   | "LiveOpsDeepLinkRewardConfig"
   | "SongConfig";
 
-export { ProtobufReader, CMSRequester };
+export { ProtobufReader, ProtobufWriter, CMSRequester };
