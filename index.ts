@@ -1,30 +1,22 @@
-import fs from "fs";
 import ProtobufReader from "./ProtobufReader";
+import { getCms } from "./server/CMSRequester";
 
-const cmsConfigs = [
-  "GameConfig",
-  "LangConfig",
-  "AssetsPatchConfig",
-  "AudioConfig",
-  "NewsFeed",
-  "ScalingConfig",
-  "NotificationsConfig",
-  "FontFallbackConfig",
-  "LiveOpsBundleConfig",
-  "LiveOpsEventConfig",
-  "LiveOpsDeepLinkRewardConfig",
-  "SongConfig",
-];
+type CMS =
+  | "GameConfig"
+  | "LangConfig"
+  | "AssetsPatchConfig"
+  | "AudioConfig"
+  | "NewsFeed"
+  | "ScalingConfig"
+  | "NotificationsConfig"
+  | "FontFallbackConfig"
+  | "LiveOpsBundleConfig"
+  | "LiveOpsEventConfig"
+  | "LiveOpsDeepLinkRewardConfig"
+  | "SongConfig";
 
-const file = fs.readFileSync("./cms/AssetsPatchConfig.bytes");
-
-const reader = new ProtobufReader(file);
-
-const proto = JSON.parse(
-  fs.readFileSync("./protos/AssetsPatchConfig.json").toString()
-);
+getCms();
 
 export { ProtobufReader };
 
-const raw = reader.process(proto);
-console.log(raw);
+export const parse = (proto: CMS) => {};

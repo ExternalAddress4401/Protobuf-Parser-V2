@@ -1,0 +1,16 @@
+{
+  "1": {
+    "name": "packed",
+    "type": "packed",
+    "fields": {
+      "1": {
+        "name": "v1",
+        "type": "varint"
+      },
+      "2": {
+        "name": "v2",
+        "type": "varint"
+      }
+    }
+  }
+}

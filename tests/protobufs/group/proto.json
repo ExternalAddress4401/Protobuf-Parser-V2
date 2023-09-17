@@ -1,0 +1,16 @@
+{
+  "1": {
+    "name": "group",
+    "type": "group",
+    "fields": {
+      "1": {
+        "name": "test",
+        "type": "varint"
+      },
+      "2": {
+        "name": "string",
+        "type": "string"
+      }
+    }
+  }
+}

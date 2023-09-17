@@ -178,6 +178,7 @@ export default class ProtobufReader {
       const byte = this.readByte();
       bytes.push(padBinary(clearBit(byte, 7).toString(2), 7));
       if (byte >> 7 !== 1) {
+        //check the MSB for 1
         break;
       }
     }
