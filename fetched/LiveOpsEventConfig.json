@@ -1,0 +1,2712 @@
+{
+  "LiveOpsEvents": [
+    {
+      "type": 2,
+      "slice": {
+        "numSongs": 3,
+        "numPlays": 2,
+        "repeatDurationMsecs": 86400000
+      },
+      "id": 1,
+      "idLabel": "3SongsChoices2attempts",
+      "nameTxt": "Daily Shuffle",
+      "startTimeMsecs": 1577862000000,
+      "endTimeMsecs": 7258143600000,
+      "useLocalTime": true
+    },
+    {
+      "type": 3,
+      "slice": {
+        "7": [
+          {
+            "1": 1,
+            "2": 20
+          },
+          {
+            "1": 2,
+            "2": 17
+          },
+          {
+            "1": 3,
+            "2": 16
+          },
+          {
+            "1": 4,
+            "2": 15
+          },
+          {
+            "1": 5,
+            "2": 14
+          },
+          {
+            "1": 6,
+            "2": 12
+          },
+          {
+            "1": 7,
+            "2": 11
+          },
+          {
+            "1": 8,
+            "2": 10
+          },
+          {
+            "1": 9,
+            "2": 9
+          },
+          {
+            "1": 10,
+            "2": 8
+          },
+          {
+            "1": 11,
+            "2": 7
+          },
+          {
+            "1": 12,
+            "2": 7
+          },
+          {
+            "1": 13,
+            "2": 7
+          },
+          {
+            "1": 14,
+            "2": 7
+          },
+          {
+            "1": 15,
+            "2": 7
+          }
+        ],
+        "15": {
+          "1": 9,
+          "2": 10
+        },
+        "16": {
+          "1": "698bc8da-bde5-4062-8e93-edff3207b9a8",
+          "2": "https://assets.flamingo.apelabs.net/images/events/698bc8da-bde5-4062-8e93-edff3207b9a8",
+          "3": 1350,
+          "4": 374,
+          "6": {
+            "3": 1350,
+            "4": 374
+          }
+        },
+        "17": {
+          "2": [
+            {
+              "1": 1
+            },
+            {
+              "1": 1,
+              "2": 1
+            }
+          ],
+          "3": [
+            {
+              "1": 554173951,
+              "2": 0.5
+            },
+            {
+              "1": 1125122815,
+              "2": 1
+            }
+          ]
+        },
+        "26": [
+          {
+            "1": 2,
+            "2": {
+              "1": 3,
+              "2": 50
+            }
+          },
+          {
+            "1": 2,
+            "2": {
+              "1": 9,
+              "2": 100
+            }
+          }
+        ],
+        "segments": [
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 392,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 1747,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 17,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 1366,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 607,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 1497,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 292,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 238,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 178,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 866,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 186,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 914,
+                "buyCost": 99
+              }
+            ]
+          }
+        ],
+        "playActiveDurationMsecs": 1200000,
+        "numPlayers": 15,
+        "numAttempts": 2,
+        "gachaRewards": {
+          "uniqueRewardEveryN": 10,
+          "uniqueTier": {
+            "weight": 10,
+            "rewards": [
+              {
+                "type": 6,
+                "slice": {
+                  "Beatmap_id": 136
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 731
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 730
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 727
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 719
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 715
+                }
+              }
+            ]
+          },
+          "repeatableTiers": [
+            {
+              "weight": 20,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 606
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 700
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 77
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 15
+                }
+              }
+            },
+            {
+              "weight": 40,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 705
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 701
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 53
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 10
+                }
+              }
+            },
+            {
+              "weight": 30,
+              "rewards": [
+                {
+                  "type": 2,
+                  "slice": {
+                    "Currency_id": 8,
+                    "Amount": 5
+                  }
+                }
+              ]
+            }
+          ],
+          "gachaRewards": {
+            "buffer": {
+              "index": 0,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  58
+                ]
+              }
+            },
+            "key": {
+              "wire": 0,
+              "field": 6
+            },
+            "str": ":",
+            "typeGuess": "group",
+            "name": "gachaRewards"
+          }
+        },
+        "eventEndedCooloffDurationMsecs": 7200000,
+        "datesDetailsTxt": "Aug 18 - Aug 21",
+        "numAiPlayers": 5,
+        "eventFlavourTxt": "Show off your true skills in the Heatstar event! Play to win Songs, Song Boxes, and other great prizes!",
+        "localNoti_laterSegmentsMsgTxt": "A new mini-event is starting. Play to spin the wheel and win more prizes!",
+        "shopPricePoint_id": 1705082547,
+        "shopMaxPurchases": 6,
+        "shopEnabled": true,
+        "playlistBundleGemCost": 99
+      },
+      "id": 818049703,
+      "idLabel": "88-Heatstar",
+      "nameTxt": "<i><color=#efb520>Heatstar</color></i>",
+      "startTimeMsecs": 1692374400000,
+      "endTimeMsecs": 1692633600000,
+      "developmentState": 2
+    },
+    {
+      "type": 4,
+      "slice": {
+        "10": {
+          "3": []
+        },
+        "17": {
+          "3": {},
+          "5": 6,
+          "6": 1
+        },
+        "refreshDurationMsecs": 86400000,
+        "rewards": [
+          {
+            "countRequired": 50,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1038
+              }
+            }
+          },
+          {
+            "countRequired": 150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1042
+              }
+            }
+          },
+          {
+            "countRequired": 300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1022
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 400,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1062
+              }
+            }
+          },
+          {
+            "countRequired": 500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1042
+              }
+            }
+          },
+          {
+            "countRequired": 600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  1
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 700,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 806
+              }
+            }
+          },
+          {
+            "countRequired": 850,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1000,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1300,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  3
+                ]
+              }
+            }
+          },
+          {
+            "countRequired": 1450,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1216
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  5
+                ]
+              }
+            }
+          },
+          {
+            "countRequired": 1750,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 702
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1925,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            }
+          },
+          {
+            "countRequired": 2100,
+            "reward": {
+              "type": 19,
+              "slice": {
+                "trackSkin_id": 312647884
+              }
+            },
+            "isMilestone": true
+          }
+        ],
+        "tileRimColour": 18446744072105249000,
+        "boosterShopEnabled": true,
+        "boosterShopPricePoint_id": 1705910718,
+        "boosterShopRewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 86400000
+            }
+          },
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 15,
+              "Amount": 10
+            }
+          }
+        ],
+        "boosterShopMaxPurchases": 3,
+        "tileIcon": {
+          "id": "907ee84d-a7c0-4cb1-8109-0138df63a2ac",
+          "url": "https://assets.flamingo.apelabs.net/images/eventTileIcons/907ee84d-a7c0-4cb1-8109-0138df63a2ac",
+          "width": 256,
+          "height": 256,
+          "rect": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "eventDescriptionTxt": "Wranglers, Rodeos, Whiskey, and a good guitar. Chase the country vibes.",
+        "uiBackgroundImage": {
+          "id": "b39391e6-82ed-489b-affe-296b9cbd8231",
+          "url": "https://assets.flamingo.apelabs.net/images/totaliserEventBackgrounds/b39391e6-82ed-489b-affe-296b9cbd8231",
+          "width": 512,
+          "height": 256,
+          "rect": {
+            "width": 512,
+            "height": 256
+          }
+        },
+        "singleSongSwapGemCost": 3,
+        "refreshAllSongsGemCost": 60
+      },
+      "id": 1207544192,
+      "idLabel": "Beat Chaser - A Little Bit Country",
+      "nameTxt": "A Little Bit Country",
+      "startTimeMsecs": 1692720000000,
+      "endTimeMsecs": 1692892800000,
+      "developmentState": 2
+    },
+    {
+      "type": 3,
+      "slice": {
+        "7": [
+          {
+            "1": 1,
+            "2": 20
+          },
+          {
+            "1": 2,
+            "2": 17
+          },
+          {
+            "1": 3,
+            "2": 16
+          },
+          {
+            "1": 4,
+            "2": 15
+          },
+          {
+            "1": 5,
+            "2": 14
+          },
+          {
+            "1": 6,
+            "2": 12
+          },
+          {
+            "1": 7,
+            "2": 11
+          },
+          {
+            "1": 8,
+            "2": 10
+          },
+          {
+            "1": 9,
+            "2": 9
+          },
+          {
+            "1": 10,
+            "2": 8
+          },
+          {
+            "1": 11,
+            "2": 7
+          },
+          {
+            "1": 12,
+            "2": 7
+          },
+          {
+            "1": 13,
+            "2": 7
+          },
+          {
+            "1": 14,
+            "2": 7
+          },
+          {
+            "1": 15,
+            "2": 7
+          }
+        ],
+        "15": {
+          "1": 9,
+          "2": 10
+        },
+        "16": {
+          "1": "454bf2a7-8169-4980-afee-5d96c675258e",
+          "2": "https://assets.flamingo.apelabs.net/images/events/454bf2a7-8169-4980-afee-5d96c675258e",
+          "3": 1350,
+          "4": 374,
+          "6": {
+            "3": 1350,
+            "4": 374
+          }
+        },
+        "17": {
+          "2": [
+            {
+              "1": 1
+            },
+            {
+              "1": 1,
+              "2": 1
+            }
+          ],
+          "3": [
+            {
+              "1": 269097215,
+              "2": 0.5
+            },
+            {
+              "1": 604524287,
+              "2": 1
+            }
+          ]
+        },
+        "26": [
+          {
+            "1": 2,
+            "2": {
+              "1": 3,
+              "2": 50
+            }
+          },
+          {
+            "1": 2,
+            "2": {
+              "1": 9,
+              "2": 100
+            }
+          }
+        ],
+        "segments": [
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 186,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 17,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 786,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 167,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1121,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 907,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 334,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 257,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 303,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 70,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1049,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 1179,
+                "buyCost": 99
+              }
+            ]
+          }
+        ],
+        "playActiveDurationMsecs": 1200000,
+        "numPlayers": 15,
+        "numAttempts": 2,
+        "gachaRewards": {
+          "uniqueRewardEveryN": 10,
+          "uniqueTier": {
+            "weight": 10,
+            "rewards": [
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 853
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 853
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 857
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 725
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 751
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 729
+                }
+              }
+            ]
+          },
+          "repeatableTiers": [
+            {
+              "weight": 20,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 606
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 700
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 77
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 15
+                }
+              }
+            },
+            {
+              "weight": 40,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 607
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 701
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 53
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 10
+                }
+              }
+            },
+            {
+              "weight": 30,
+              "rewards": [
+                {
+                  "type": 2,
+                  "slice": {
+                    "Currency_id": 8,
+                    "Amount": 5
+                  }
+                }
+              ]
+            }
+          ],
+          "gachaRewards": {
+            "buffer": {
+              "index": 0,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  58
+                ]
+              }
+            },
+            "key": {
+              "wire": 0,
+              "field": 6
+            },
+            "str": ":",
+            "typeGuess": "group",
+            "name": "gachaRewards"
+          }
+        },
+        "eventEndedCooloffDurationMsecs": 7200000,
+        "datesDetailsTxt": "Aug 25 - Aug 28",
+        "numAiPlayers": 5,
+        "eventFlavourTxt": "Play this weekend for a chance to get flush with Deluxe Cards and unlock those sweet Deluxe versions of your favourite tunes!",
+        "localNoti_laterSegmentsMsgTxt": "A new mini-event is starting. Play to spin the wheel and win more prizes!",
+        "shopPricePoint_id": 1705082547,
+        "shopMaxPurchases": 6,
+        "shopEnabled": true,
+        "playlistBundleGemCost": 99
+      },
+      "id": 1756982149,
+      "idLabel": "89-DeluxeDashPlus",
+      "nameTxt": "<i><color=#FFFFFF>DELUXE DASH PLUS</color></i>",
+      "startTimeMsecs": 1692979200000,
+      "endTimeMsecs": 1693238400000,
+      "developmentState": 2
+    },
+    {
+      "type": 3,
+      "slice": {
+        "7": [
+          {
+            "1": 1,
+            "2": 30
+          },
+          {
+            "1": 2,
+            "2": 25
+          },
+          {
+            "1": 3,
+            "2": 20
+          },
+          {
+            "1": 4,
+            "2": 16
+          },
+          {
+            "1": 5,
+            "2": 14
+          },
+          {
+            "1": 6,
+            "2": 12
+          },
+          {
+            "1": 7,
+            "2": 11
+          },
+          {
+            "1": 8,
+            "2": 10
+          },
+          {
+            "1": 9,
+            "2": 9
+          },
+          {
+            "1": 10,
+            "2": 8
+          },
+          {
+            "1": 11,
+            "2": 7
+          },
+          {
+            "1": 12,
+            "2": 7
+          },
+          {
+            "1": 13,
+            "2": 7
+          },
+          {
+            "1": 14,
+            "2": 7
+          },
+          {
+            "1": 15,
+            "2": 7
+          }
+        ],
+        "15": {
+          "1": 9,
+          "2": 10
+        },
+        "16": {
+          "1": "EB_GuitarBoss.png",
+          "2": "https://assets.flamingo.apelabs.net/images/events/EB_GuitarBoss.png",
+          "3": 1350,
+          "4": 374,
+          "6": {
+            "3": 1350,
+            "4": 374
+          }
+        },
+        "17": {
+          "2": [
+            {
+              "1": 1
+            },
+            {
+              "1": 1,
+              "2": 1
+            }
+          ],
+          "3": [
+            {
+              "1": 18446744072941021000,
+              "2": 0.5
+            },
+            {
+              "1": 18446744073345116000,
+              "2": 1
+            }
+          ]
+        },
+        "26": [
+          {
+            "1": 2,
+            "2": {
+              "1": 3,
+              "2": 50
+            }
+          },
+          {
+            "1": 2,
+            "2": {
+              "1": 9,
+              "2": 100
+            }
+          }
+        ],
+        "segments": [
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 292,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 93,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1209,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 237,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 361,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 89,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 850,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 903,
+                "buyCost": 99
+              }
+            ]
+          }
+        ],
+        "playActiveDurationMsecs": 1200000,
+        "numPlayers": 15,
+        "numAttempts": 2,
+        "gachaRewards": {
+          "uniqueRewardEveryN": 10,
+          "uniqueTier": {
+            "weight": 10,
+            "rewards": [
+              {
+                "type": 6,
+                "slice": {
+                  "Beatmap_id": 1854
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 805
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 724
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 715
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 727
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 719
+                }
+              }
+            ]
+          },
+          "repeatableTiers": [
+            {
+              "weight": 20,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 606
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 700
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 77
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 15
+                }
+              }
+            },
+            {
+              "weight": 40,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 807
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 706
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 53
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 10
+                }
+              }
+            },
+            {
+              "weight": 30,
+              "rewards": [
+                {
+                  "type": 2,
+                  "slice": {
+                    "Currency_id": 8,
+                    "Amount": 5
+                  }
+                }
+              ]
+            }
+          ],
+          "gachaRewards": {
+            "buffer": {
+              "index": 0,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  58
+                ]
+              }
+            },
+            "key": {
+              "wire": 0,
+              "field": 6
+            },
+            "str": ":",
+            "typeGuess": "group",
+            "name": "gachaRewards"
+          }
+        },
+        "eventEndedCooloffDurationMsecs": 7200000,
+        "datesDetailsTxt": "Sep 05 - Sep 07",
+        "numAiPlayers": 5,
+        "eventFlavourTxt": "It'll be a hell of a ride this week to win 'Hallowed be thy name' by Iron Maiden!",
+        "localNoti_laterSegmentsMsgTxt": "A new mini-event is starting. Play to spin the wheel and win more prizes!",
+        "shopPricePoint_id": 1705082547,
+        "shopMaxPurchases": 6,
+        "shopEnabled": true,
+        "playlistBundleGemCost": 99
+      },
+      "id": 1013454722,
+      "idLabel": "90-DanceWithTheDevil",
+      "nameTxt": "<i><color=#FFFFFF>Dance with the Devil</color></i>",
+      "startTimeMsecs": 1693929600000,
+      "endTimeMsecs": 1694102400000,
+      "developmentState": 2
+    },
+    {
+      "type": 3,
+      "slice": {
+        "7": [
+          {
+            "1": 1,
+            "2": 20
+          },
+          {
+            "1": 2,
+            "2": 17
+          },
+          {
+            "1": 3,
+            "2": 16
+          },
+          {
+            "1": 4,
+            "2": 15
+          },
+          {
+            "1": 5,
+            "2": 14
+          },
+          {
+            "1": 6,
+            "2": 12
+          },
+          {
+            "1": 7,
+            "2": 11
+          },
+          {
+            "1": 8,
+            "2": 10
+          },
+          {
+            "1": 9,
+            "2": 9
+          },
+          {
+            "1": 10,
+            "2": 8
+          },
+          {
+            "1": 11,
+            "2": 7
+          },
+          {
+            "1": 12,
+            "2": 7
+          },
+          {
+            "1": 13,
+            "2": 7
+          },
+          {
+            "1": 14,
+            "2": 7
+          },
+          {
+            "1": 15,
+            "2": 7
+          }
+        ],
+        "15": {
+          "1": 9,
+          "2": 10
+        },
+        "16": {
+          "1": "698bc8da-bde5-4062-8e93-edff3207b9a8",
+          "2": "https://assets.flamingo.apelabs.net/images/events/698bc8da-bde5-4062-8e93-edff3207b9a8",
+          "3": 1350,
+          "4": 374,
+          "6": {
+            "3": 1350,
+            "4": 374
+          }
+        },
+        "17": {
+          "2": [
+            {
+              "1": 1
+            },
+            {
+              "1": 1,
+              "2": 1
+            }
+          ],
+          "3": [
+            {
+              "1": 554173951,
+              "2": 0.5
+            },
+            {
+              "1": 1125122815,
+              "2": 1
+            }
+          ]
+        },
+        "26": [
+          {
+            "1": 2,
+            "2": {
+              "1": 3,
+              "2": 50
+            }
+          },
+          {
+            "1": 2,
+            "2": {
+              "1": 9,
+              "2": 100
+            }
+          }
+        ],
+        "segments": [
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 73,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 1140,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 338,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 1011,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1300,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 586,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1201,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 916,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1237,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 710,
+                "buyCost": 99
+              }
+            ]
+          },
+          {
+            "beatmaps": [
+              {
+                "beatmap_id": 1657,
+                "buyCost": 99
+              },
+              {
+                "beatmap_id": 473,
+                "buyCost": 99
+              }
+            ]
+          }
+        ],
+        "playActiveDurationMsecs": 1200000,
+        "numPlayers": 15,
+        "numAttempts": 2,
+        "gachaRewards": {
+          "uniqueRewardEveryN": 10,
+          "uniqueTier": {
+            "weight": 10,
+            "rewards": [
+              {
+                "type": 6,
+                "slice": {
+                  "Beatmap_id": 1713
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 731
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 730
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 727
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 719
+                }
+              },
+              {
+                "type": 8,
+                "slice": {
+                  "GachaBox_id": 715
+                }
+              }
+            ]
+          },
+          "repeatableTiers": [
+            {
+              "weight": 20,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 606
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 700
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 77
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 15
+                }
+              }
+            },
+            {
+              "weight": 40,
+              "rewards": [
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 706
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 707
+                  }
+                },
+                {
+                  "type": 8,
+                  "slice": {
+                    "GachaBox_id": 53
+                  }
+                }
+              ],
+              "fallbackReward": {
+                "type": 2,
+                "slice": {
+                  "Currency_id": 8,
+                  "Amount": 10
+                }
+              }
+            },
+            {
+              "weight": 30,
+              "rewards": [
+                {
+                  "type": 2,
+                  "slice": {
+                    "Currency_id": 8,
+                    "Amount": 5
+                  }
+                }
+              ]
+            }
+          ],
+          "gachaRewards": {
+            "buffer": {
+              "index": 0,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  58
+                ]
+              }
+            },
+            "key": {
+              "wire": 0,
+              "field": 6
+            },
+            "str": ":",
+            "typeGuess": "group",
+            "name": "gachaRewards"
+          }
+        },
+        "eventEndedCooloffDurationMsecs": 7200000,
+        "datesDetailsTxt": "Sep 08 - Sep 11",
+        "numAiPlayers": 5,
+        "eventFlavourTxt": "Show off your true skills in the Heatstar event! Play to win Songs, Song Boxes, and other great prizes!",
+        "localNoti_laterSegmentsMsgTxt": "A new mini-event is starting. Play to spin the wheel and win more prizes!",
+        "shopPricePoint_id": 1705082547,
+        "shopMaxPurchases": 6,
+        "shopEnabled": true,
+        "playlistBundleGemCost": 99
+      },
+      "id": 1376063866,
+      "idLabel": "91-Heatstar",
+      "nameTxt": "<i><color=#efb520>Heatstar</color></i>",
+      "startTimeMsecs": 1694188800000,
+      "endTimeMsecs": 1694448000000,
+      "developmentState": 2
+    },
+    {
+      "type": 4,
+      "slice": {
+        "10": {
+          "3": []
+        },
+        "17": {
+          "3": {
+            "buffer": {
+              "index": 1,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  7,
+                  11,
+                  12,
+                  17,
+                  4,
+                  6,
+                  9
+                ]
+              }
+            },
+            "key": {
+              "wire": 2,
+              "field": 3
+            },
+            "str": "\u0007\u000b\f\u0011\u0004\u0006\t",
+            "typeGuess": "group",
+            "name": "3"
+          },
+          "5": 6,
+          "6": 2
+        },
+        "refreshDurationMsecs": 86400000,
+        "rewards": [
+          {
+            "countRequired": 50,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1041
+              }
+            }
+          },
+          {
+            "countRequired": 150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1022
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 400,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  2
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 700,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1040
+              }
+            }
+          },
+          {
+            "countRequired": 850,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1000,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1023
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1450,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1033
+              }
+            }
+          },
+          {
+            "countRequired": 1600,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1750,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1925,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  5
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 2100,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 2275,
+            "reward": {
+              "type": 3,
+              "slice": {
+                "profileIcon_id": 1900477042
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 2450,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            }
+          },
+          {
+            "countRequired": 2625,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  2
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 2800,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1065
+              }
+            }
+          },
+          {
+            "countRequired": 2975,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 712
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 3150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            }
+          },
+          {
+            "countRequired": 3325,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 855
+              }
+            }
+          },
+          {
+            "countRequired": 3500,
+            "reward": {
+              "type": 19,
+              "slice": {
+                "trackSkin_id": 1782857767
+              }
+            },
+            "isMilestone": true
+          }
+        ],
+        "tileRimColour": 18446744072944472000,
+        "boosterShopEnabled": true,
+        "boosterShopPricePoint_id": 1705910718,
+        "boosterShopRewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 86400000
+            }
+          },
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 15,
+              "Amount": 10
+            }
+          }
+        ],
+        "boosterShopMaxPurchases": 3,
+        "tileIcon": {
+          "id": "0b43cece-14bd-4186-9b0c-2ab617416d7c",
+          "url": "https://assets.flamingo.apelabs.net/images/eventTileIcons/0b43cece-14bd-4186-9b0c-2ab617416d7c",
+          "width": 256,
+          "height": 256,
+          "rect": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "eventDescriptionTxt": "It's Beatstar's 2nd birthday, let's celebrate!",
+        "uiBackgroundImage": {
+          "id": "46386ec9-bd75-43e9-b104-7986532d813e",
+          "url": "https://assets.flamingo.apelabs.net/images/totaliserEventBackgrounds/46386ec9-bd75-43e9-b104-7986532d813e",
+          "width": 512,
+          "height": 256,
+          "rect": {
+            "width": 512,
+            "height": 256
+          }
+        },
+        "singleSongSwapGemCost": 3,
+        "refreshAllSongsGemCost": 60
+      },
+      "id": 926084639,
+      "idLabel": "Beat Chaser - Birthday Bash",
+      "nameTxt": "Birthday Bash",
+      "startTimeMsecs": 1693584000000,
+      "endTimeMsecs": 1693843200000,
+      "developmentState": 2
+    },
+    {
+      "type": 4,
+      "slice": {
+        "10": {
+          "3": []
+        },
+        "17": {
+          "3": {
+            "buffer": {
+              "index": 1,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  7
+                ]
+              }
+            },
+            "key": {
+              "wire": 2,
+              "field": 3
+            },
+            "str": "\u0007",
+            "typeGuess": "group",
+            "name": "3"
+          },
+          "5": 6,
+          "6": 1
+        },
+        "refreshDurationMsecs": 86400000,
+        "rewards": [
+          {
+            "countRequired": 50,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1037
+              }
+            }
+          },
+          {
+            "countRequired": 150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1042
+              }
+            }
+          },
+          {
+            "countRequired": 300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1022
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 400,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1062
+              }
+            }
+          },
+          {
+            "countRequired": 500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1042
+              }
+            }
+          },
+          {
+            "countRequired": 600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  1
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 700,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 707
+              }
+            }
+          },
+          {
+            "countRequired": 850,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1000,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1300,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  3
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1450,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1216
+              }
+            }
+          },
+          {
+            "countRequired": 1600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  5
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1750,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 702
+              }
+            }
+          },
+          {
+            "countRequired": 1930,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 2100,
+            "reward": {
+              "type": 19,
+              "slice": {
+                "trackSkin_id": 1870273612
+              }
+            },
+            "isMilestone": true
+          }
+        ],
+        "tileRimColour": 18446744073684797000,
+        "boosterShopEnabled": true,
+        "boosterShopPricePoint_id": 1705910718,
+        "boosterShopRewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 86400000
+            }
+          },
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 15,
+              "Amount": 10
+            }
+          }
+        ],
+        "boosterShopMaxPurchases": 3,
+        "tileIcon": {
+          "id": "90e0c5be-01c3-4e48-b7d3-736fd26795f9",
+          "url": "https://assets.flamingo.apelabs.net/images/eventTileIcons/90e0c5be-01c3-4e48-b7d3-736fd26795f9",
+          "width": 256,
+          "height": 256,
+          "rect": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "eventDescriptionTxt": "Blaze the Alternative trail in this midweek's Beat Chaser event!",
+        "uiBackgroundImage": {
+          "id": "d722a31b-2a34-4776-933e-d8a57260c4bb",
+          "url": "https://assets.flamingo.apelabs.net/images/totaliserEventBackgrounds/d722a31b-2a34-4776-933e-d8a57260c4bb",
+          "width": 512,
+          "height": 256,
+          "rect": {
+            "width": 512,
+            "height": 256
+          }
+        },
+        "singleSongSwapGemCost": 3,
+        "refreshAllSongsGemCost": 60
+      },
+      "id": 1304655394,
+      "idLabel": "Beat Chaser - Alt Ignition",
+      "nameTxt": "Alt Ignition",
+      "startTimeMsecs": 1694534400000,
+      "endTimeMsecs": 1694707200000,
+      "developmentState": 2
+    },
+    {
+      "type": 4,
+      "slice": {
+        "10": {
+          "3": []
+        },
+        "17": {
+          "3": {},
+          "5": 6,
+          "6": 1
+        },
+        "refreshDurationMsecs": 86400000,
+        "rewards": [
+          {
+            "countRequired": 50,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1041
+              }
+            }
+          },
+          {
+            "countRequired": 150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1042
+              }
+            }
+          },
+          {
+            "countRequired": 300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1022
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 400,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1062
+              }
+            }
+          },
+          {
+            "countRequired": 500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1042
+              }
+            }
+          },
+          {
+            "countRequired": 600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  3
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 700,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 701
+              }
+            }
+          },
+          {
+            "countRequired": 850,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1000,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1300,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  5
+                ]
+              }
+            },
+            "isMilestone": true
+          }
+        ],
+        "tileRimColour": 18446744073529633000,
+        "boosterShopEnabled": true,
+        "boosterShopPricePoint_id": 1705910718,
+        "boosterShopRewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 86400000
+            }
+          },
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 15,
+              "Amount": 10
+            }
+          }
+        ],
+        "boosterShopMaxPurchases": 3,
+        "tileIcon": {
+          "id": "d6a257e1-51d3-48aa-95a1-3511bbaaa7aa",
+          "url": "https://assets.flamingo.apelabs.net/images/eventTileIcons/d6a257e1-51d3-48aa-95a1-3511bbaaa7aa",
+          "width": 256,
+          "height": 256,
+          "rect": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "eventDescriptionTxt": "Pop till you drop this event and claim new merch for your profile!",
+        "uiBackgroundImage": {
+          "id": "12cdc840-87a9-48bd-9a56-279ef6336e59",
+          "url": "https://assets.flamingo.apelabs.net/images/totaliserEventBackgrounds/12cdc840-87a9-48bd-9a56-279ef6336e59",
+          "width": 512,
+          "height": 256,
+          "rect": {
+            "width": 512,
+            "height": 256
+          }
+        },
+        "singleSongSwapGemCost": 3,
+        "refreshAllSongsGemCost": 60
+      },
+      "id": 919774694,
+      "idLabel": "Beat Chaser - Pop Till You Drop",
+      "nameTxt": "Pop Till You Drop",
+      "startTimeMsecs": 1693324800000,
+      "endTimeMsecs": 1693497600000,
+      "developmentState": 2
+    },
+    {
+      "type": 4,
+      "slice": {
+        "10": {
+          "3": []
+        },
+        "17": {
+          "3": {
+            "buffer": {
+              "index": 1,
+              "bytes": {
+                "type": "Buffer",
+                "data": [
+                  12
+                ]
+              }
+            },
+            "key": {
+              "wire": 2,
+              "field": 3
+            },
+            "str": "\f",
+            "typeGuess": "group",
+            "name": "3"
+          },
+          "5": 6,
+          "6": 3
+        },
+        "refreshDurationMsecs": 86400000,
+        "rewards": [
+          {
+            "countRequired": 50,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1033
+              }
+            }
+          },
+          {
+            "countRequired": 150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1022
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 400,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 600,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  3
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 700,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 607
+              }
+            }
+          },
+          {
+            "countRequired": 850,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1000,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1150,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1300,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1023
+              }
+            }
+          },
+          {
+            "countRequired": 1450,
+            "reward": {
+              "type": 14,
+              "slice": {
+                "1": 460050466
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 1600,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1034
+              }
+            }
+          },
+          {
+            "countRequired": 1750,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 1925,
+            "reward": {
+              "type": 14,
+              "slice": {
+                "1": 406880042
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 2100,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 846
+              }
+            }
+          },
+          {
+            "countRequired": 2275,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 702
+              }
+            }
+          },
+          {
+            "countRequired": 2450,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            }
+          },
+          {
+            "countRequired": 2625,
+            "reward": {
+              "type": 13,
+              "slice": {
+                "1": 1697339010
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 2800,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1065
+              }
+            }
+          },
+          {
+            "countRequired": 2975,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 727
+              }
+            }
+          },
+          {
+            "countRequired": 3150,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  1
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 3325,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            }
+          },
+          {
+            "countRequired": 3500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 855
+              }
+            }
+          },
+          {
+            "countRequired": 3700,
+            "reward": {
+              "type": 3,
+              "slice": {
+                "profileIcon_id": 1165900722
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 3900,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1045
+              }
+            }
+          },
+          {
+            "countRequired": 4100,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 810
+              }
+            }
+          },
+          {
+            "countRequired": 4300,
+            "reward": {
+              "type": 20,
+              "slice": {
+                "rewardTags_id": [
+                  2
+                ]
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 4500,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 1065
+              }
+            }
+          },
+          {
+            "countRequired": 4700,
+            "reward": {
+              "type": 8,
+              "slice": {
+                "GachaBox_id": 855
+              }
+            }
+          },
+          {
+            "countRequired": 4900,
+            "reward": {
+              "type": 19,
+              "slice": {
+                "trackSkin_id": 2017563993
+              }
+            },
+            "isMilestone": true
+          },
+          {
+            "countRequired": 5100,
+            "reward": {
+              "type": 6,
+              "slice": {
+                "Beatmap_id": 2012
+              }
+            },
+            "isMilestone": true
+          }
+        ],
+        "tileRimColour": 1270862335,
+        "boosterShopEnabled": true,
+        "boosterShopPricePoint_id": 1705910718,
+        "boosterShopRewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 86400000
+            }
+          },
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 15,
+              "Amount": 10
+            }
+          }
+        ],
+        "boosterShopMaxPurchases": 3,
+        "tileIcon": {
+          "id": "b9d368b3-3823-4482-9ca2-4f518f113775",
+          "url": "https://assets.flamingo.apelabs.net/images/eventTileIcons/b9d368b3-3823-4482-9ca2-4f518f113775",
+          "width": 256,
+          "height": 256,
+          "rect": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "eventDescriptionTxt": "Play to win Seasons by Thirty Seconds to Mars, branded merch, and more!",
+        "uiBackgroundImage": {
+          "id": "49c7087e-181f-4693-9d9c-c3936a3c9742",
+          "url": "https://assets.flamingo.apelabs.net/images/totaliserEventBackgrounds/49c7087e-181f-4693-9d9c-c3936a3c9742",
+          "width": 512,
+          "height": 256,
+          "rect": {
+            "width": 512,
+            "height": 256
+          }
+        },
+        "singleSongSwapGemCost": 3,
+        "refreshAllSongsGemCost": 60
+      },
+      "id": 441679539,
+      "idLabel": "Beat Chaser - 30 Seconds to Mars",
+      "nameTxt": "Thirty Seconds to Mars",
+      "startTimeMsecs": 1694793600000,
+      "endTimeMsecs": 1695052800000,
+      "developmentState": 2
+    }
+  ],
+  "version": "21.0.prod.1694794484+en"
+}

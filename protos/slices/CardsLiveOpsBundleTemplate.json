@@ -16,9 +16,17 @@
             "type": "enum"
           },
           "enums": {
-            "5": "CurrencyRewardTemplate",
-            "8": "CardRewardTemplate",
-            "11": "HardGatePassRewardTemplate"
+            "2": "CurrencyRewardTemplate",
+            "3": "ProfileIconRewardTemplate",
+            "6": "BeatmapRewardTemplate",
+            "8": "GachaBoxRewardTemplate",
+            "11": "HardGatePassRewardTemplate",
+            "13": "EmojiRewardTemplate",
+            "14": "CallingCardRewardTemplate",
+            "17": "CardRewardTemplate",
+            "18": "SeasonSongRewardTemplate",
+            "19": "TrackSkinRewardTemplate",
+            "20": "CosmeticGachaBoxRewardTemplate"
           }
         }
       }

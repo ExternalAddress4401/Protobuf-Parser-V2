@@ -36,4 +36,9 @@ export default class Packet {
       body: new ProtobufReader(this.body).process(bodyProto),
     };
   }
+  decompress() {
+    if (this.body[0] === 0x1f && this.body[1] === 0x8b) {
+      this.body = zlib.gunzipSync(this.body);
+    }
+  }
 }

@@ -1,12 +1,6 @@
 {
-  "2": {
-    "name": "data",
-    "type": "group",
-    "fields": {
-      "1": {
-        "name": "emoji_id",
-        "type": "varint"
-      }
-    }
+  "1": {
+    "name": "emoji_id",
+    "type": "varint"
   }
 }

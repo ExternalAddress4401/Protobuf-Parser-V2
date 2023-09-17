@@ -1,0 +1,1697 @@
+{
+  "LiveOpsBundles": [
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1011,
+        "dataSets_id": 1285037846
+      },
+      "id": 1342895958,
+      "idLabel": "liveops-bundle-themed-90sThrowback",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744073321590000,
+        "Tint2": 18446744073391542000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$baf62055-2c61-4ef0-91f7-b3bd659664de\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/baf62055-2c61-4ef0-91f7-b3bd659664de\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1692547200000,
+      "endTimeMsecs": 1692633600000,
+      "sortOrder": 125,
+      "shopImage": {
+        "id": "e8a7b656-14f8-4728-8ed3-933c0ad07afd",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/e8a7b656-14f8-4728-8ed3-933c0ad07afd",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "e8a7b656-14f8-4728-8ed3-933c0ad07afd",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/e8a7b656-14f8-4728-8ed3-933c0ad07afd",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "90's Throwback"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1004,
+        "dataSets_id": 250105629
+      },
+      "id": 300270874,
+      "idLabel": "liveops-bundle-themed-ArianaGrande",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 1807127551,
+        "Tint2": 18446744071904666000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d59412ba-6203-4650-91c6-b3fc3ea80ef0\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d59412ba-6203-4650-91c6-b3fc3ea80ef0\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1692633600000,
+      "endTimeMsecs": 1692720000000,
+      "sortOrder": 135,
+      "shopImage": {
+        "id": "a6f3a79a-1d3a-4f9e-8e1c-cb1dfde1dc5f",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a6f3a79a-1d3a-4f9e-8e1c-cb1dfde1dc5f",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "a6f3a79a-1d3a-4f9e-8e1c-cb1dfde1dc5f",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a6f3a79a-1d3a-4f9e-8e1c-cb1dfde1dc5f",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "showOnHomescreenDialog": true,
+      "title": "Ariana Grande Special!"
+    },
+    {
+      "type": 4,
+      "slice": {
+        "rewards": {
+          "buffer": {
+            "index": 28,
+            "bytes": {
+              "type": "Buffer",
+              "data": [
+                9,
+                8,
+                17,
+                18,
+                5,
+                8,
+                15,
+                16,
+                250,
+                1,
+                8,
+                8,
+                2,
+                18,
+                4,
+                8,
+                3,
+                16,
+                100,
+                8,
+                8,
+                11,
+                18,
+                4,
+                8,
+                128,
+                159,
+                73
+              ]
+            }
+          },
+          "key": {
+            "wire": 2,
+            "field": 2
+          },
+          "str": "\t\b\u0011\u0012\u0005\b\u000f\u0010�\u0001\b\b\u0002\u0012\u0004\b\u0003\u0010d\b",
+          "typeGuess": "group",
+          "name": "rewards"
+        }
+      },
+      "id": 2052693437,
+      "idLabel": "liveops-bundle-Deluxe-250-cards",
+      "openingVisual": {
+        "asset_id": 6,
+        "Tint1": 255,
+        "Tint2": 18446744073350947000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 1,
+        "Smoothness": 1,
+        "SSSTint": 255,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "pricePoint_id": 2147162104,
+      "startTimeMsecs": 1692720000000,
+      "endTimeMsecs": 1692806400000,
+      "sortOrder": 133,
+      "shopImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-40",
+      "showOnHomescreenDialog": true,
+      "title": "Deluxe Bundle",
+      "backgroundFillTopColor": 490293759,
+      "backgroundFillBottomColor": 255
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1017,
+        "dataSets_id": 1285037846
+      },
+      "id": 1112439426,
+      "idLabel": "liveops-bundle-themed-poolsideLounge",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 16775167,
+        "Tint2": 18446744073703130000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$fe9212d8-3afb-4559-aa15-8907317bec04\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/fe9212d8-3afb-4559-aa15-8907317bec04\u0018�\u0004 �\u00042\b\b\b\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1692806400000,
+      "endTimeMsecs": 1692892800000,
+      "sortOrder": 135,
+      "shopImage": {
+        "id": "067bf4d4-25f4-481f-9985-dd692788beed",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/067bf4d4-25f4-481f-9985-dd692788beed",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "067bf4d4-25f4-481f-9985-dd692788beed",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/067bf4d4-25f4-481f-9985-dd692788beed",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "showOnHomescreenDialog": true,
+      "title": "Poolside Lounge"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1018,
+        "dataSets_id": 1285037846
+      },
+      "id": 1699629504,
+      "idLabel": "liveops-bundle-themed-beachParty",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 586647295,
+        "Tint2": 18446744073694456000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$b3a510f6-203b-45b8-8fae-34ff8738d7fb\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/b3a510f6-203b-45b8-8fae-34ff8738d7fb\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1692892800000,
+      "endTimeMsecs": 1692979200000,
+      "sortOrder": 135,
+      "shopImage": {
+        "id": "b2e0b0ef-9c75-4dde-ac23-4c86f565e986",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b2e0b0ef-9c75-4dde-ac23-4c86f565e986",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "b2e0b0ef-9c75-4dde-ac23-4c86f565e986",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b2e0b0ef-9c75-4dde-ac23-4c86f565e986",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "showOnHomescreenDialog": true,
+      "title": "Beach Party!"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 889,
+        "dataSets_id": 1285037846
+      },
+      "id": 1393525934,
+      "idLabel": "liveops-bundle-themed-bangerA",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 1511511807,
+        "Tint2": 18446744073175556000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$59810b09-4d9b-4689-a9c8-731f51ecd521\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/59810b09-4d9b-4689-a9c8-731f51ecd521\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1692979200000,
+      "endTimeMsecs": 1693062000000,
+      "sortOrder": 119,
+      "shopImage": {
+        "id": "9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Certified Bangers"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 881,
+        "dataSets_id": 1285037846
+      },
+      "id": 1791327769,
+      "idLabel": "liveops-bundle-season23-A",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 2127167487,
+        "Tint2": 18446744072684240000,
+        "DecalTint": 18446744071866274000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 4617983,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$6e0cc058-0bba-40e1-8250-7e6678364fb9\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/6e0cc058-0bba-40e1-8250-7e6678364fb9\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1693065600000,
+      "endTimeMsecs": 1693152000000,
+      "sortOrder": 136,
+      "shopImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Previous Hits",
+      "backgroundFillBottomColor": 20
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1217,
+        "dataSets_id": 1285037846
+      },
+      "id": 937381005,
+      "idLabel": "liveops-bundle-theme-BackToSchool",
+      "openingVisual": {
+        "asset_id": 1,
+        "Tint1": 18446744073435224000,
+        "Tint2": 18446744073435224000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1693152000000,
+      "endTimeMsecs": 1693238400000,
+      "sortOrder": 126,
+      "shopImage": {
+        "id": "1ea96846-9597-477d-8135-d8a39b748d04",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/1ea96846-9597-477d-8135-d8a39b748d04",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "1ea96846-9597-477d-8135-d8a39b748d04",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/1ea96846-9597-477d-8135-d8a39b748d04",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Back To School!"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 897,
+        "dataSets_id": 1285037846
+      },
+      "id": 1100962162,
+      "idLabel": "liveops-bundle-themed-neckbreakers",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744072538108000,
+        "Tint2": 690828031,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$c6324dea-c94b-43bf-91e4-df6a5376ad2e\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/c6324dea-c94b-43bf-91e4-df6a5376ad2e\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1693238400000,
+      "endTimeMsecs": 1693324800000,
+      "sortOrder": 107,
+      "shopImage": {
+        "id": "6f89938d-0b1e-4b3d-9a48-e48bd56c1988",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/6f89938d-0b1e-4b3d-9a48-e48bd56c1988",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "6f89938d-0b1e-4b3d-9a48-e48bd56c1988",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/6f89938d-0b1e-4b3d-9a48-e48bd56c1988",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Neckbreakers"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 888,
+        "dataSets_id": 1285037846
+      },
+      "id": 1497844436,
+      "idLabel": "liveops-bundle-theme-mintConditionA",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744073709552000,
+        "Tint2": 1088466943,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1088466688,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$bc9df7e6-2452-4812-981d-a3bcb24b32d6\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/bc9df7e6-2452-4812-981d-a3bcb24b32d6\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1693324800000,
+      "endTimeMsecs": 1693411200000,
+      "sortOrder": 120,
+      "shopImage": {
+        "id": "b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Mint Condition"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 885,
+        "dataSets_id": 1285037846
+      },
+      "id": 1037379494,
+      "idLabel": "liveops-bundle-theme-discoveryA",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 1161186303,
+        "Tint2": 1648782335,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 255,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$69bba764-d5aa-4890-ab61-1797b718e216\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/69bba764-d5aa-4890-ab61-1797b718e216\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1693411200000,
+      "endTimeMsecs": 1693497600000,
+      "sortOrder": 127,
+      "shopImage": {
+        "id": "9e3c2d35-5d57-4a96-b239-518afb909cea",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9e3c2d35-5d57-4a96-b239-518afb909cea",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "9e3c2d35-5d57-4a96-b239-518afb909cea",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9e3c2d35-5d57-4a96-b239-518afb909cea",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Discovery Radio"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 890,
+        "dataSets_id": 1285037846
+      },
+      "id": 1695643968,
+      "idLabel": "liveops-bundle-themed-viralHitsA",
+      "openingVisual": {
+        "asset_id": 1,
+        "Tint1": 15919871,
+        "Tint2": 18446744073692795000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 918880256,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$c8f4b061-a9e3-4038-97e3-a68dce886e4e\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/c8f4b061-a9e3-4038-97e3-a68dce886e4e\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1693497600000,
+      "endTimeMsecs": 1693584000000,
+      "sortOrder": 123,
+      "shopImage": {
+        "id": "336a6b5d-d7b7-4303-b066-f8859e5bc9d5",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/336a6b5d-d7b7-4303-b066-f8859e5bc9d5",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "336a6b5d-d7b7-4303-b066-f8859e5bc9d5",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/336a6b5d-d7b7-4303-b066-f8859e5bc9d5",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Viral Hits"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1217,
+        "dataSets_id": 1285037846
+      },
+      "id": 1290082134,
+      "idLabel": "liveops-bundle-theme-BackToSchool",
+      "openingVisual": {
+        "asset_id": 1,
+        "Tint1": 18446744073435224000,
+        "Tint2": 18446744073435224000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1693584000000,
+      "endTimeMsecs": 1693670400000,
+      "sortOrder": 126,
+      "shopImage": {
+        "id": "1ea96846-9597-477d-8135-d8a39b748d04",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/1ea96846-9597-477d-8135-d8a39b748d04",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "1ea96846-9597-477d-8135-d8a39b748d04",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/1ea96846-9597-477d-8135-d8a39b748d04",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Back To School!"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 881,
+        "dataSets_id": 1285037846
+      },
+      "id": 466394409,
+      "idLabel": "liveops-bundle-season23-B",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 2127167487,
+        "Tint2": 18446744072684240000,
+        "DecalTint": 18446744071866274000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 4617983,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$6e0cc058-0bba-40e1-8250-7e6678364fb9\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/6e0cc058-0bba-40e1-8250-7e6678364fb9\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1693670400000,
+      "endTimeMsecs": 1693756800000,
+      "sortOrder": 136,
+      "shopImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Previous Hits",
+      "backgroundFillBottomColor": 20
+    },
+    {
+      "type": 4,
+      "slice": {
+        "rewards": {
+          "buffer": {
+            "index": 28,
+            "bytes": {
+              "type": "Buffer",
+              "data": [
+                9,
+                8,
+                17,
+                18,
+                5,
+                8,
+                15,
+                16,
+                250,
+                1,
+                8,
+                8,
+                2,
+                18,
+                4,
+                8,
+                3,
+                16,
+                100,
+                8,
+                8,
+                11,
+                18,
+                4,
+                8,
+                128,
+                159,
+                73
+              ]
+            }
+          },
+          "key": {
+            "wire": 2,
+            "field": 2
+          },
+          "str": "\t\b\u0011\u0012\u0005\b\u000f\u0010�\u0001\b\b\u0002\u0012\u0004\b\u0003\u0010d\b",
+          "typeGuess": "group",
+          "name": "rewards"
+        }
+      },
+      "id": 674483832,
+      "idLabel": "liveops-bundle-Deluxe-250-cards",
+      "openingVisual": {
+        "asset_id": 6,
+        "Tint1": 255,
+        "Tint2": 18446744073350947000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 1,
+        "Smoothness": 1,
+        "SSSTint": 255,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "pricePoint_id": 2147162104,
+      "startTimeMsecs": 1693756800000,
+      "endTimeMsecs": 1693843200000,
+      "sortOrder": 133,
+      "shopImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-40",
+      "showOnHomescreenDialog": true,
+      "title": "Deluxe Bundle",
+      "backgroundFillTopColor": 490293759,
+      "backgroundFillBottomColor": 255
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1001,
+        "dataSets_id": 250105629
+      },
+      "id": 1278689831,
+      "idLabel": "liveops-bundle-themed-ImagineDragons",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 833022719,
+        "Tint2": 186595839,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$bc804380-498f-436f-8e72-7a2a482df702\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/bc804380-498f-436f-8e72-7a2a482df702\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1693843200000,
+      "endTimeMsecs": 1693929600000,
+      "sortOrder": 135,
+      "shopImage": {
+        "id": "e4a3e53e-1425-4ae0-8b4b-78a818b26c88",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/e4a3e53e-1425-4ae0-8b4b-78a818b26c88",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "e4a3e53e-1425-4ae0-8b4b-78a818b26c88",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/e4a3e53e-1425-4ae0-8b4b-78a818b26c88",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "showOnHomescreenDialog": true,
+      "title": "Imagine Dragons Special!"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 892,
+        "dataSets_id": 1285037846
+      },
+      "id": 861273505,
+      "idLabel": "liveops-bundle-themed-dateNight",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744073567816000,
+        "Tint2": 18446744072907278000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$c694ed1a-4d31-480f-94a0-c152cbc261fa\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/c694ed1a-4d31-480f-94a0-c152cbc261fa\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1693929600000,
+      "endTimeMsecs": 1694016000000,
+      "sortOrder": 124,
+      "shopImage": {
+        "id": "25c2677a-4a2b-42f8-8f72-a2c5e267a5c9",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/25c2677a-4a2b-42f8-8f72-a2c5e267a5c9",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "25c2677a-4a2b-42f8-8f72-a2c5e267a5c9",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/25c2677a-4a2b-42f8-8f72-a2c5e267a5c9",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Date Night"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 886,
+        "dataSets_id": 1285037846
+      },
+      "id": 301055996,
+      "idLabel": "liveops-bundle-themed-workoutHype",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744072065436000,
+        "Tint2": 14489343,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$285a9992-d92d-4c38-b426-5af03e4f0f1c\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/285a9992-d92d-4c38-b426-5af03e4f0f1c\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694016000000,
+      "endTimeMsecs": 1694102400000,
+      "sortOrder": 125,
+      "shopImage": {
+        "id": "ad540fac-df3f-4976-8c61-28675c7b6c42",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/ad540fac-df3f-4976-8c61-28675c7b6c42",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "ad540fac-df3f-4976-8c61-28675c7b6c42",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/ad540fac-df3f-4976-8c61-28675c7b6c42",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Workout Hype"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 891,
+        "dataSets_id": 1285037846
+      },
+      "id": 1738177401,
+      "idLabel": "liveops-bundle-themed-bangerB",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 1511511807,
+        "Tint2": 18446744073175556000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$59810b09-4d9b-4689-a9c8-731f51ecd521\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/59810b09-4d9b-4689-a9c8-731f51ecd521\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694102400000,
+      "endTimeMsecs": 1694188800000,
+      "sortOrder": 101,
+      "shopImage": {
+        "id": "9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Certified Bangers"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 903,
+        "dataSets_id": 1285037846
+      },
+      "id": 1480699469,
+      "idLabel": "liveops-bundle-themed-karaokeNight",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744073625993000,
+        "Tint2": 18446744071578910000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$8ece428d-bdee-41a9-a7a3-a29aac5d28f5\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/8ece428d-bdee-41a9-a7a3-a29aac5d28f5\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694102400000,
+      "endTimeMsecs": 1694188800000,
+      "sortOrder": 135,
+      "shopImage": {
+        "id": "7bc6f298-0623-4030-8c35-19f447366131",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/7bc6f298-0623-4030-8c35-19f447366131",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "7bc6f298-0623-4030-8c35-19f447366131",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/7bc6f298-0623-4030-8c35-19f447366131",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "showOnHomescreenDialog": true,
+      "title": "Karaoke Night"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 881,
+        "dataSets_id": 250105629
+      },
+      "id": 130370573,
+      "idLabel": "liveops-bundle-season23-All",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 2127167487,
+        "Tint2": 18446744072684240000,
+        "DecalTint": 18446744071866274000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 4617983,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$6e0cc058-0bba-40e1-8250-7e6678364fb9\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/6e0cc058-0bba-40e1-8250-7e6678364fb9\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1694275200000,
+      "endTimeMsecs": 1694361600000,
+      "sortOrder": 136,
+      "shopImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Previous Hits",
+      "backgroundFillBottomColor": 20
+    },
+    {
+      "type": 4,
+      "slice": {
+        "rewards": {
+          "buffer": {
+            "index": 28,
+            "bytes": {
+              "type": "Buffer",
+              "data": [
+                9,
+                8,
+                17,
+                18,
+                5,
+                8,
+                15,
+                16,
+                250,
+                1,
+                8,
+                8,
+                2,
+                18,
+                4,
+                8,
+                3,
+                16,
+                100,
+                8,
+                8,
+                11,
+                18,
+                4,
+                8,
+                128,
+                159,
+                73
+              ]
+            }
+          },
+          "key": {
+            "wire": 2,
+            "field": 2
+          },
+          "str": "\t\b\u0011\u0012\u0005\b\u000f\u0010�\u0001\b\b\u0002\u0012\u0004\b\u0003\u0010d\b",
+          "typeGuess": "group",
+          "name": "rewards"
+        }
+      },
+      "id": 783916911,
+      "idLabel": "liveops-bundle-Deluxe-250-cards",
+      "openingVisual": {
+        "asset_id": 6,
+        "Tint1": 255,
+        "Tint2": 18446744073350947000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 1,
+        "Smoothness": 1,
+        "SSSTint": 255,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "pricePoint_id": 2147162104,
+      "startTimeMsecs": 1694361600000,
+      "endTimeMsecs": 1694448000000,
+      "sortOrder": 133,
+      "shopImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-40",
+      "showOnHomescreenDialog": true,
+      "title": "Deluxe Bundle",
+      "backgroundFillTopColor": 490293759,
+      "backgroundFillBottomColor": 255
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 895,
+        "dataSets_id": 1285037846
+      },
+      "id": 897408541,
+      "idLabel": "liveops-bundle-themed-mintConditionB",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744073709552000,
+        "Tint2": 1088466943,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1088466688,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$bc9df7e6-2452-4812-981d-a3bcb24b32d6\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/bc9df7e6-2452-4812-981d-a3bcb24b32d6\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694448000000,
+      "endTimeMsecs": 1694534400000,
+      "sortOrder": 130,
+      "shopImage": {
+        "id": "b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b0bcc863-4552-4f8e-a5d0-891df3644914",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Mint Condition"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 884,
+        "dataSets_id": 1285037846
+      },
+      "id": 2008409335,
+      "idLabel": "liveops-bundle-themed-rockEssentials",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 18446744073698476000,
+        "Tint2": 18446744072400935000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$72796697-c8fa-4b3c-8d90-cceb538b23ff\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/72796697-c8fa-4b3c-8d90-cceb538b23ff\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694534400000,
+      "endTimeMsecs": 1694620800000,
+      "sortOrder": 132,
+      "shopImage": {
+        "id": "b8877226-45dc-4131-b71b-df50b48b1030",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b8877226-45dc-4131-b71b-df50b48b1030",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "b8877226-45dc-4131-b71b-df50b48b1030",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/b8877226-45dc-4131-b71b-df50b48b1030",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Rock Essentials"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 894,
+        "dataSets_id": 1285037846
+      },
+      "id": 1455634670,
+      "idLabel": "liveops-bundle-themed-warehouseParty",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 7461887,
+        "Tint2": 918880511,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 918880256,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$3dedad33-a32a-4cdd-9271-38707f6510a5\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/3dedad33-a32a-4cdd-9271-38707f6510a5\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694620800000,
+      "endTimeMsecs": 1694707200000,
+      "sortOrder": 105,
+      "shopImage": {
+        "id": "9e3ba2a0-9a07-49a2-8891-fbf32e92e3bd",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9e3ba2a0-9a07-49a2-8891-fbf32e92e3bd",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "9e3ba2a0-9a07-49a2-8891-fbf32e92e3bd",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9e3ba2a0-9a07-49a2-8891-fbf32e92e3bd",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Warehouse Party"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 887,
+        "dataSets_id": 1285037846
+      },
+      "id": 1522497164,
+      "idLabel": "liveops-bundle-theme-emo",
+      "openingVisual": {
+        "asset_id": 1,
+        "Tint1": 18446744073435224000,
+        "Tint2": 18446744073435224000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 0.75,
+        "Smoothness": 0.8500000238418579,
+        "SSSTint": 1375731967,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1694707200000,
+      "endTimeMsecs": 1694793600000,
+      "sortOrder": 126,
+      "shopImage": {
+        "id": "1ea96846-9597-477d-8135-d8a39b748d04",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/1ea96846-9597-477d-8135-d8a39b748d04",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "1ea96846-9597-477d-8135-d8a39b748d04",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/1ea96846-9597-477d-8135-d8a39b748d04",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Scene Kids Unite!"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 1026,
+        "dataSets_id": 1285037846
+      },
+      "id": 1488807223,
+      "idLabel": "liveops-bundle-themed-bangerC",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 1511511807,
+        "Tint2": 18446744073175556000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 1375731967,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$59810b09-4d9b-4689-a9c8-731f51ecd521\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/59810b09-4d9b-4689-a9c8-731f51ecd521\u0018�\u0003 �\u00032\u0006\u0018�\u0003 �\u0003"
+        }
+      },
+      "startTimeMsecs": 1694793600000,
+      "endTimeMsecs": 1694880000000,
+      "sortOrder": 101,
+      "shopImage": {
+        "id": "9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/9466aa2f-ffe8-4315-9225-5d96f07830d4",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Certified Bangers"
+    },
+    {
+      "type": 5,
+      "slice": {
+        "gachaBoxTemplate_id": 881,
+        "dataSets_id": 1285037846
+      },
+      "id": 1967465975,
+      "idLabel": "liveops-bundle-season24-A",
+      "openingVisual": {
+        "asset_id": 2,
+        "Tint1": 2127167487,
+        "Tint2": 18446744072684240000,
+        "DecalTint": 18446744071866274000,
+        "Metalness": -1,
+        "Smoothness": -1,
+        "SSSTint": 4617983,
+        "SSSLevel": -1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$6e0cc058-0bba-40e1-8250-7e6678364fb9\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/6e0cc058-0bba-40e1-8250-7e6678364fb9\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "startTimeMsecs": 1694880000000,
+      "endTimeMsecs": 1694966400000,
+      "sortOrder": 136,
+      "shopImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/eeeb1a6a-283f-411e-8ca4-2539483a54ec",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-15",
+      "showOnHomescreenDialog": true,
+      "title": "Previous Hits",
+      "backgroundFillBottomColor": 20
+    },
+    {
+      "type": 4,
+      "slice": {
+        "rewards": {
+          "buffer": {
+            "index": 28,
+            "bytes": {
+              "type": "Buffer",
+              "data": [
+                9,
+                8,
+                17,
+                18,
+                5,
+                8,
+                15,
+                16,
+                250,
+                1,
+                8,
+                8,
+                2,
+                18,
+                4,
+                8,
+                3,
+                16,
+                100,
+                8,
+                8,
+                11,
+                18,
+                4,
+                8,
+                128,
+                159,
+                73
+              ]
+            }
+          },
+          "key": {
+            "wire": 2,
+            "field": 2
+          },
+          "str": "\t\b\u0011\u0012\u0005\b\u000f\u0010�\u0001\b\b\u0002\u0012\u0004\b\u0003\u0010d\b",
+          "typeGuess": "group",
+          "name": "rewards"
+        }
+      },
+      "id": 1387537955,
+      "idLabel": "liveops-bundle-Deluxe-250-cards",
+      "openingVisual": {
+        "asset_id": 6,
+        "Tint1": 255,
+        "Tint2": 18446744073350947000,
+        "DecalTint": 18446744073709552000,
+        "Metalness": 1,
+        "Smoothness": 1,
+        "SSSTint": 255,
+        "SSSLevel": 1,
+        "Decal": {
+          "id": "\u0002",
+          "url": "\n�\u0001\n$d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0012[https://assets.flamingo.apelabs.net/images/bundleDecal/d851f20c-a69a-4fc2-9fda-84ce68c2165f\u0018�\u0002 �\u00022\u0006\u0018�\u0002 �\u0002"
+        }
+      },
+      "pricePoint_id": 2147162104,
+      "startTimeMsecs": 1694966400000,
+      "endTimeMsecs": 1695052800000,
+      "sortOrder": 133,
+      "shopImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "y": 56,
+          "width": 880,
+          "height": 456
+        }
+      },
+      "shopPreviewImage": {
+        "id": "a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "url": "https://assets.flamingo.apelabs.net/images/bundle/a33bb5ad-20bb-4106-9aed-1c706f775d5b",
+        "width": 1024,
+        "height": 512,
+        "rect": {
+          "x": 127,
+          "y": 106,
+          "width": 897,
+          "height": 406
+        }
+      },
+      "sharedRequirements_id": "starMileStone-40",
+      "showOnHomescreenDialog": true,
+      "title": "Deluxe Bundle",
+      "backgroundFillTopColor": 490293759,
+      "backgroundFillBottomColor": 255
+    }
+  ],
+  "version": "0.0.content.1694443954+en",
+  "nextBundleId": 242
+}

@@ -1,0 +1,75 @@
+{
+  "fields": {
+    "1": {
+      "name": "LiveOpsDeeplinkRewards",
+      "type": "packed",
+      "fields": {
+        "1": {
+          "name": "id",
+          "type": "string"
+        },
+        "2": {
+          "name": "idLabel",
+          "type": "string"
+        },
+        "3": {
+          "name": "viewerStatus",
+          "type": "varint"
+        },
+        "4": {
+          "name": "claimRequirements_id",
+          "type": "string"
+        },
+        "5": {
+          "name": "startTimeMsecs",
+          "type": "varint"
+        },
+        "6": {
+          "name": "endTimeMsecs",
+          "type": "varint"
+        },
+        "7": {
+          "name": "rewards",
+          "type": "group",
+          "fields": {
+            "1": {
+              "name": "Rewards",
+              "type": "packed",
+              "fields": {
+                "1": {
+                  "name": "type",
+                  "type": "varint"
+                },
+                "2": {
+                  "name": "slice",
+                  "type": "enum"
+                },
+                "enums": {
+                  "2": "CurrencyRewardTemplate",
+                  "3": "ProfileIconRewardTemplate",
+                  "6": "BeatmapRewardTemplate",
+                  "8": "GachaBoxRewardTemplate",
+                  "11": "HardGatePassRewardTemplate",
+                  "13": "EmojiRewardTemplate",
+                  "14": "CallingCardRewardTemplate",
+                  "17": "CardRewardTemplate",
+                  "18": "SeasonSongRewardTemplate",
+                  "19": "TrackSkinRewardTemplate",
+                  "20": "CosmeticGachaBoxRewardTemplate"
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "name": "claimLinkPopupUrl",
+          "type": "string"
+        }
+      }
+    },
+    "100": {
+      "name": "version",
+      "type": "string"
+    }
+  }
+}

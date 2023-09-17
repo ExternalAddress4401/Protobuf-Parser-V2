@@ -1,0 +1,46 @@
+{
+  "1": {
+    "name": "id",
+    "type": "varint"
+  },
+  "2": {
+    "name": "timestamp",
+    "type": "varint"
+  },
+  "4": {
+    "name": "empty",
+    "type": "string"
+  },
+  "5": {
+    "name": "info",
+    "type": "group",
+    "fields": {
+      "5": {
+        "name": "cms",
+        "type": "group",
+        "fields": {
+          "10": {
+            "name": "news",
+            "chunk": "NewsFeed"
+          },
+          "11": {
+            "name": "liveopsbundles",
+            "chunk": "LiveOpsBundleConfig"
+          },
+          "12": {
+            "name": "liveopsdeeplink",
+            "chunk": "LiveOpsDeeplinkRewardConfig"
+          },
+          "13": {
+            "name": "liveopsevent",
+            "chunk": "LiveOpsEventConfig"
+          },
+          "14": {
+            "name": "seasonsconfig",
+            "chunk": "LiveOpsSeasonConfig"
+          }
+        }
+      }
+    }
+  }
+}

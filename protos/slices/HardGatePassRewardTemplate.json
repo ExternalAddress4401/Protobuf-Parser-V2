@@ -1,12 +1,6 @@
 {
-  "2": {
-    "name": "data",
-    "type": "group",
-    "fields": {
-      "1": {
-        "name": "durationMsecs",
-        "type": "varint"
-      }
-    }
+  "1": {
+    "name": "durationMsecs",
+    "type": "varint"
   }
 }

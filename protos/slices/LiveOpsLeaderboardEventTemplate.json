@@ -60,10 +60,17 @@
                 "type": "enum"
               },
               "enums": {
+                "2": "CurrencyRewardTemplate",
+                "3": "ProfileIconRewardTemplate",
                 "6": "BeatmapRewardTemplate",
                 "8": "GachaBoxRewardTemplate",
+                "11": "HardGatePassRewardTemplate",
                 "13": "EmojiRewardTemplate",
-                "14": "CallingCardRewardTemplate"
+                "14": "CallingCardRewardTemplate",
+                "17": "CardRewardTemplate",
+                "18": "SeasonSongRewardTemplate",
+                "19": "TrackSkinRewardTemplate",
+                "20": "CosmeticGachaBoxRewardTemplate"
               }
             }
           }
@@ -91,7 +98,16 @@
               },
               "enums": {
                 "2": "CurrencyRewardTemplate",
-                "8": "GachaBoxRewardTemplate"
+                "3": "ProfileIconRewardTemplate",
+                "6": "BeatmapRewardTemplate",
+                "8": "GachaBoxRewardTemplate",
+                "11": "HardGatePassRewardTemplate",
+                "13": "EmojiRewardTemplate",
+                "14": "CallingCardRewardTemplate",
+                "17": "CardRewardTemplate",
+                "18": "SeasonSongRewardTemplate",
+                "19": "TrackSkinRewardTemplate",
+                "20": "CosmeticGachaBoxRewardTemplate"
               }
             }
           },
@@ -108,7 +124,17 @@
                 "type": "enum"
               },
               "enums": {
-                "2": "CurrencyRewardTemplate"
+                "2": "CurrencyRewardTemplate",
+                "3": "ProfileIconRewardTemplate",
+                "6": "BeatmapRewardTemplate",
+                "8": "GachaBoxRewardTemplate",
+                "11": "HardGatePassRewardTemplate",
+                "13": "EmojiRewardTemplate",
+                "14": "CallingCardRewardTemplate",
+                "17": "CardRewardTemplate",
+                "18": "SeasonSongRewardTemplate",
+                "19": "TrackSkinRewardTemplate",
+                "20": "CosmeticGachaBoxRewardTemplate"
               }
             }
           }
@@ -181,5 +207,45 @@
         "type": "string"
       }
     }
+  },
+  "10": {
+    "name": "eventEndedCooloffDurationMsecs",
+    "type": "varint"
+  },
+  "11": {
+    "name": "datesDetailsTxt",
+    "type": "string"
+  },
+  "12": {
+    "name": "numAiPlayers",
+    "type": "varint"
+  },
+  "19": {
+    "name": "eventFlavourTxt",
+    "type": "string"
+  },
+  "20": {
+    "name": "localNoti_laterSegmentsMsg_id",
+    "type": "string"
+  },
+  "21": {
+    "name": "localNoti_laterSegmentsMsgTxt",
+    "type": "string"
+  },
+  "24": {
+    "name": "shopPricePoint_id",
+    "type": "varint"
+  },
+  "25": {
+    "name": "shopMaxPurchases",
+    "type": "varint"
+  },
+  "27": {
+    "name": "shopEnabled",
+    "type": "boolean"
+  },
+  "28": {
+    "name": "playlistBundleGemCost",
+    "type": "varint"
   }
 }

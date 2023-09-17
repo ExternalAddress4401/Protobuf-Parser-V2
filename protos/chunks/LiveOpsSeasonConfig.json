@@ -1,0 +1,130 @@
+{
+  "fields": {
+    "3": {
+      "name": "seasons",
+      "type": "packed",
+      "fields": {
+        "1": {
+          "name": "id",
+          "type": "varint"
+        },
+        "2": {
+          "name": "idLabel",
+          "type": "string"
+        },
+        "3": {
+          "name": "name",
+          "type": "string"
+        },
+        "4": {
+          "name": "seasonNumber",
+          "type": "varint"
+        },
+        "5": {
+          "name": "startTimeMsecs",
+          "type": "varint"
+        },
+        "6": {
+          "name": "endTimeMsecs",
+          "type": "varint"
+        },
+        "7": {
+          "name": "draft",
+          "type": "boolean"
+        },
+        "9": {
+          "name": "beatmaps_id",
+          "type": "varint-repeat"
+        },
+        "10": {
+          "name": "premiumPassPricePoint_id",
+          "type": "varint"
+        },
+        "11": {
+          "name": "headerImage",
+          "chunk": "Image"
+        },
+        "12": {
+          "name": "panelMotifImage",
+          "chunk": "Image"
+        },
+        "16": {
+          "name": "levels",
+          "type": "packed",
+          "fields": {
+            "1": {
+              "name": "migratedID",
+              "type": "varint"
+            },
+            "4": {
+              "name": "pointsRequired",
+              "type": "varint"
+            },
+            "5": {
+              "name": "freeReward",
+              "type": "group",
+              "fields": {
+                "1": {
+                  "name": "type",
+                  "type": "varint"
+                },
+                "2": {
+                  "name": "slice",
+                  "type": "enum"
+                },
+                "enums": {
+                  "2": "CurrencyRewardTemplate",
+                  "3": "ProfileIconRewardTemplate",
+                  "6": "BeatmapRewardTemplate",
+                  "8": "GachaBoxRewardTemplate",
+                  "11": "HardGatePassRewardTemplate",
+                  "13": "EmojiRewardTemplate",
+                  "14": "CallingCardRewardTemplate",
+                  "17": "CardRewardTemplate",
+                  "18": "SeasonSongRewardTemplate",
+                  "19": "TrackSkinRewardTemplate",
+                  "20": "CosmeticGachaBoxRewardTemplate"
+                }
+              }
+            },
+            "6": {
+              "name": "premiumReward",
+              "type": "group",
+              "fields": {
+                "1": {
+                  "name": "type",
+                  "type": "varint"
+                },
+                "2": {
+                  "name": "slice",
+                  "type": "enum"
+                },
+                "enums": {
+                  "2": "CurrencyRewardTemplate",
+                  "3": "ProfileIconRewardTemplate",
+                  "6": "BeatmapRewardTemplate",
+                  "8": "GachaBoxRewardTemplate",
+                  "11": "HardGatePassRewardTemplate",
+                  "13": "EmojiRewardTemplate",
+                  "14": "CallingCardRewardTemplate",
+                  "17": "CardRewardTemplate",
+                  "18": "SeasonSongRewardTemplate",
+                  "19": "TrackSkinRewardTemplate",
+                  "20": "CosmeticGachaBoxRewardTemplate"
+                }
+              }
+            },
+            "7": {
+              "name": "freeRewardIsInteresting",
+              "type": "boolean"
+            },
+            "8": {
+              "name": "premiumRewardIsInteresting",
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}

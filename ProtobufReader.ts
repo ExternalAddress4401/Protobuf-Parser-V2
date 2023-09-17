@@ -18,6 +18,7 @@ export default class ProtobufReader {
 
     while (this.hasNext()) {
       const key = this.readKey();
+
       switch (key.wire) {
         case 0:
           parsed[key.field] = new Unknown(this.readVarintBuffer(), key);
@@ -152,6 +153,13 @@ export default class ProtobufReader {
             strs.push(data.buffer.slice(data.buffer.readVarint()).toString());
           }
           return strs;
+        case "varint-repeat":
+          const varints = [];
+          data.buffer.index = 0;
+          while (data.buffer.hasNext()) {
+            varints.push(data.buffer.readVarint());
+          }
+          return varints;
       }
     } catch (e) {
       return data;

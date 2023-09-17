@@ -8,6 +8,7 @@ export default class Unknown extends BaseType {
     | "boolean"
     | "string"
     | "string-repeat"
+    | "varint-repeat"
     | "float"
     | "group"
     | "enum"

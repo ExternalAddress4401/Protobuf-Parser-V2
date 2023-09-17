@@ -7,6 +7,20 @@
         "name": "type",
         "type": "varint"
       },
+      "2": {
+        "name": "story",
+        "type": "group",
+        "fields": {
+          "1": {
+            "name": "html",
+            "type": "string"
+          },
+          "2": {
+            "name": "text",
+            "type": "string"
+          }
+        }
+      },
       "3": {
         "name": "id",
         "type": "varint"

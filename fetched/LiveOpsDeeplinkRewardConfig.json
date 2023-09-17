@@ -1,0 +1,838 @@
+{
+  "LiveOpsDeeplinkRewards": [
+    {
+      "id": "c19321cc-6496-4561-bca7-6d06280cb0b8",
+      "idLabel": "discord-joining-5wishlist",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1669766400000,
+      "endTimeMsecs": 1921449600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 611
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://discord.gg/beatstar"
+    },
+    {
+      "id": "c6eef4c1-f772-40da-89da-64ddc239682d",
+      "idLabel": "wishlistcards-5-tiktok",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1652918401000,
+      "endTimeMsecs": 32515775999000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 611
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://www.tiktok.com/@beatstar"
+    },
+    {
+      "id": "911051c1-19e2-4b2a-84c1-6ab805dd0c27",
+      "idLabel": "wishlistcards-5-insta",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1653041766875,
+      "endTimeMsecs": 32515775999000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 611
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://www.instagram.com/beatstar"
+    },
+    {
+      "id": "2962a5a8-02ba-4fb6-a794-20310478aff9",
+      "idLabel": "wishlistcards-5-fb",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1653041766875,
+      "endTimeMsecs": 32515775999000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 611
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://www.facebook.com/beatstar"
+    },
+    {
+      "id": "57b7e7e7-cd35-4bb3-bb48-4624839b4c4a",
+      "idLabel": "wishlistcards-5-twitter",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1653041766875,
+      "endTimeMsecs": 32515775999000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 611
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://twitter.com/playbeatstar"
+    },
+    {
+      "id": "0ee57105-1610-482f-80cd-f35b737c7cdc",
+      "idLabel": "Linkin Park Promo",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1683637200000,
+      "endTimeMsecs": 1691586000000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 3,
+              "Amount": 25
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://lprk.co/lostvideo"
+    },
+    {
+      "id": "1a0570bb-1104-430f-9eb0-95a0ac439ee6",
+      "idLabel": "promo-mustangPrereg-Newsletter",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1685703600000,
+      "endTimeMsecs": 1693479600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 6,
+            "slice": {
+              "Beatmap_id": 1879
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://link.chromevalleycustoms.com/X4Qf/fh6y7lh3"
+    },
+    {
+      "id": "3c39400d-4442-44d3-9efb-8906f59862d4",
+      "idLabel": "promo-mustangPrereg-Socials",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1685703600000,
+      "endTimeMsecs": 1693479600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 6,
+            "slice": {
+              "Beatmap_id": 1879
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://link.chromevalleycustoms.com/X4Qf/fh6y7lh3"
+    },
+    {
+      "id": "1b5da1f1-7889-4bc2-954d-b5e192065e1c",
+      "idLabel": "promo-mustangPrereg-Newsfeed",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1685703600000,
+      "endTimeMsecs": 1693479600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 6,
+            "slice": {
+              "Beatmap_id": 1879
+            }
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://link.chromevalleycustoms.com/X4Qf/fh6y7lh3"
+    },
+    {
+      "id": "9367729d-aee8-4a4d-892a-f767d8da4c8f",
+      "idLabel": "UnlimitedPlay-jul2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1688601600000,
+      "endTimeMsecs": 1691280000000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "c8d06c13-740b-432b-b8d7-4962b8f1cad0",
+      "idLabel": "2rainbowcards-jul2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1689120000000,
+      "endTimeMsecs": 1691798400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 610
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "00ad9466-aa73-4c89-91e6-bf2aa401e5d4",
+      "idLabel": "4alternativecards-jul2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1689292800000,
+      "endTimeMsecs": 1691971200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 154
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "608948f3-6cbe-4777-9c80-f7cca23a0fb8",
+      "idLabel": "4rnbcards-jul2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1689465600000,
+      "endTimeMsecs": 1692226800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 752
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "d3cf41cb-2aa1-49b3-a196-324e5cca312d",
+      "idLabel": "UnlimitedPlay-jul2023-2",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1689724800000,
+      "endTimeMsecs": 1692403200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "4bea8347-eb84-49db-80b9-02e9fef033be",
+      "idLabel": "4popcards-jul2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1690070400000,
+      "endTimeMsecs": 1692748800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 153
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "e383e8d1-f069-4d04-9609-be35d073c8f7",
+      "idLabel": "4dancecards-jul2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1690156800000,
+      "endTimeMsecs": 1692835200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 152
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "423ac2bd-d61e-46e9-beb2-60c36dc78001",
+      "idLabel": "2rainbowcards-jul2023-2",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1690416000000,
+      "endTimeMsecs": 1693094400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 610
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "92158c21-56a8-43ae-b549-0aef417fe11f",
+      "idLabel": "ftue-totalizerevent",
+      "viewerStatus": 2,
+      "claimRequirements_id": "starMileStone-40",
+      "startTimeMsecs": 1686308601000,
+      "endTimeMsecs": 1696116600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 20,
+            "slice": {
+              "trackSkins_id": [
+                1221560475,
+                1522930996,
+                1851108385
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "84056626-bb68-4994-aba8-29a66319f03c",
+      "idLabel": "UnlimitedPlay-jul2023-3",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1690675200000,
+      "endTimeMsecs": 1693353600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0845911-4306-40e4-84e1-be344929be55",
+      "idLabel": "4rockcards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1690934400000,
+      "endTimeMsecs": 1693612800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 151
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e858adb-b654-41b2-a159-60cc9914bf16",
+      "idLabel": "2hardcards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1691107200000,
+      "endTimeMsecs": 1693785600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 117
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "d4b04938-816b-4ce1-89db-f7ec2d224c80",
+      "idLabel": "UnlimitedPlay-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1691280000000,
+      "endTimeMsecs": 1693958400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "a141e079-57c1-4908-ab8f-24b7affbdd3c",
+      "idLabel": "4alternativecards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1691539200000,
+      "endTimeMsecs": 1694217600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 154
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "7f81e362-d6c7-4844-9006-256839e7e757",
+      "idLabel": "4popcards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1691884800000,
+      "endTimeMsecs": 1694563200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 153
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "8f27b35d-a157-457b-aa2c-0cc380e74c95",
+      "idLabel": "4rnbcards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1692144000000,
+      "endTimeMsecs": 1694905200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 752
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "644a174b-dfea-4102-8118-f7f802b6f1a9",
+      "idLabel": "UnlimitedPlay-aug2023-2",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1692230400000,
+      "endTimeMsecs": 1694908800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe46a4c1-6900-4a1c-8529-80f52841e4b5",
+      "idLabel": "2rainbowcards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1692489600000,
+      "endTimeMsecs": 1695168000000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 610
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "13e7ffb9-1ad1-465c-9fe5-c7292e329ddf",
+      "idLabel": "4dancecards-aug2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1692576000000,
+      "endTimeMsecs": 1695254400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 152
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "8fa4eeb2-a8ed-4271-a34d-29a641e2376a",
+      "idLabel": "UnlimitedPlay-aug2023-3",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1692748800000,
+      "endTimeMsecs": 1695427200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "9d27eea3-4b97-4152-b33d-c1cc11a447bb",
+      "idLabel": "4rockcards-aug2023-2",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1692835200000,
+      "endTimeMsecs": 1695513600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 151
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "054e21e4-1317-405c-9c6b-fd14d056ba54",
+      "idLabel": "2hardcards-aug2023-2",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1693094400000,
+      "endTimeMsecs": 1695772800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 117
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "848799da-1497-487b-9596-506651e6d916",
+      "idLabel": "2h-UnlimitedPlay-comp",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1689206400000,
+      "endTimeMsecs": 1691884800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 7200000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "501e5107-92f2-4b28-aac2-0c6913213f1b",
+      "idLabel": "CountryStar-25gems",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1690898400000,
+      "endTimeMsecs": 1695304800000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 3,
+              "Amount": 25
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://link.countrymusicgame.com/Sq6F/a50q3n33"
+    },
+    {
+      "id": "1f62ac31-e5f9-4d86-9d1a-c5b840f9c351",
+      "idLabel": "UnlimitedPlay-sept2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1693526400000,
+      "endTimeMsecs": 1696118400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "6a7b77fc-5493-4ced-a371-f857593e97f8",
+      "idLabel": "UnlimitedPlay-sept2023-2",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1694822400000,
+      "endTimeMsecs": 1697414400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 1800000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "2ec8217c-e1d0-4d33-84c2-ade4562e39f3",
+      "idLabel": "2rainbowcards-sept2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1693699200000,
+      "endTimeMsecs": 1696291200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 610
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "45dad5a3-f7c3-4b13-af2f-103deaec02e3",
+      "idLabel": "2hardcards-sept2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1693958400000,
+      "endTimeMsecs": 1696550400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 117
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "73b54972-05de-4236-b999-f60621633192",
+      "idLabel": "4popcards-sept2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1694217600000,
+      "endTimeMsecs": 1696809600000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 153
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "89395de2-c892-41f0-9c80-dd7422e03f42",
+      "idLabel": "4alternativecards-sept2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1694390400000,
+      "endTimeMsecs": 1696982400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 154
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "0b6218e9-2b8f-4511-a97c-1b0e4ab97385",
+      "idLabel": "4dancecards-sept2023-1",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1694563200000,
+      "endTimeMsecs": 1697155200000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 8,
+            "slice": {
+              "GachaBox_id": 152
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3135d8a-f4f7-48c5-9214-a3daef4fc4a0",
+      "idLabel": "anniversary-avatar-&-UP",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1693584000000,
+      "endTimeMsecs": 1694448000000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 11,
+            "slice": {
+              "durationMsecs": 86400000
+            }
+          },
+          {
+            "type": 20,
+            "slice": {
+              "rewardTags_id": [
+                3
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3520ef3f-9873-425b-b079-8bd59901cbb5",
+      "idLabel": "ThirtySecondsMars-Promo",
+      "viewerStatus": 2,
+      "startTimeMsecs": 1694520000000,
+      "endTimeMsecs": 1702382400000,
+      "rewards": {
+        "Rewards": [
+          {
+            "type": 2,
+            "slice": {
+              "Currency_id": 3,
+              "Amount": 25
+            }
+          },
+          {
+            "type": 20,
+            "slice": {}
+          }
+        ]
+      },
+      "claimLinkPopupUrl": "https://found.ee/MARS_EOTWBD"
+    }
+  ],
+  "version": "0.0.content.1694438163"
+}

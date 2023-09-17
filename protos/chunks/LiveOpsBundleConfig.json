@@ -1,0 +1,125 @@
+{
+  "fields": {
+    "1": {
+      "name": "LiveOpsBundles",
+      "type": "packed",
+      "fields": {
+        "1": {
+          "name": "type",
+          "type": "varint"
+        },
+        "2": {
+          "name": "slice",
+          "type": "enum"
+        },
+        "3": {
+          "name": "id",
+          "type": "varint"
+        },
+        "4": {
+          "name": "idLabel",
+          "type": "string"
+        },
+        "6": {
+          "name": "openingVisual",
+          "type": "group",
+          "fields": {
+            "3": {
+              "name": "asset_id",
+              "type": "varint"
+            },
+            "6": {
+              "name": "Tint1",
+              "type": "varint"
+            },
+            "7": {
+              "name": "Tint2",
+              "type": "varint"
+            },
+            "8": {
+              "name": "DecalTint",
+              "type": "varint"
+            },
+            "9": {
+              "name": "Metalness",
+              "type": "float"
+            },
+            "10": {
+              "name": "Smoothness",
+              "type": "float"
+            },
+            "11": {
+              "name": "SSSTint",
+              "type": "varint"
+            },
+            "12": {
+              "name": "SSSLevel",
+              "type": "float"
+            },
+            "13": {
+              "name": "Decal",
+              "chunk": "Image"
+            }
+          }
+        },
+        "7": {
+          "name": "pricePoint_id",
+          "type": "varint"
+        },
+        "8": {
+          "name": "startTimeMsecs",
+          "type": "varint"
+        },
+        "9": {
+          "name": "endTimeMsecs",
+          "type": "varint"
+        },
+        "10": {
+          "name": "sortOrder",
+          "type": "varint"
+        },
+        "14": {
+          "name": "shopImage",
+          "chunk": "Image"
+        },
+        "15": {
+          "name": "shopPreviewImage",
+          "chunk": "Image"
+        },
+        "16": {
+          "name": "sharedRequirements_id",
+          "type": "string"
+        },
+        "17": {
+          "name": "showOnHomescreenDialog",
+          "type": "boolean"
+        },
+        "19": {
+          "name": "title",
+          "type": "string"
+        },
+        "20": {
+          "name": "backgroundFillTopColor",
+          "type": "varint"
+        },
+        "21": {
+          "name": "backgroundFillBottomColor",
+          "type": "varint"
+        },
+        "enums": {
+          "2": "CuratedLiveOpsBundleTemplate",
+          "4": "CardsLiveOpsBundleTemplate",
+          "5": "DynamicGachaLiveOpsBundleTemplate"
+        }
+      }
+    },
+    "100": {
+      "name": "version",
+      "type": "string"
+    },
+    "101": {
+      "name": "nextBundleId",
+      "type": "varint"
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "stories": [
+    {
+      "type": 4,
+      "story": {
+        "html": "<align=\"center\">[sprite=40] Fri 15th - Mon 18th Sep 4pm UTC</align>\n\nCelebrate the release of Thirty Seconds to Mars' new album and join their special Beat Chaser event now!\n\nPlay to win their song <style=\"Bold\">Seasons</style>, an <style=\"Bold\">exclusive track skin</style> and more in-game merch!\n\n<style=\"Bold\">Grand Prize</style>: Seasons - Thirty Seconds To Mars",
+        "text": "\u0010starMileStone-40"
+      },
+      "id": 366,
+      "viewType": "Text",
+      "startTime": 1694793600000,
+      "endTime": 1695052800000,
+      "popup": 1,
+      "order": 15,
+      "images": {
+        "id": "832d4db1-8cb6-42be-ab1f-2f8c9edc1663",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/832d4db1-8cb6-42be-ab1f-2f8c9edc1663",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Thirty Seconds to Mars Event live now!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "<align=\"center\"><style=\"H1\"><style=\"Bold\"><color=#f4be4e><style=\"Link\"><link=\"deeplinkreward:3520ef3f-9873-425b-b079-8bd59901cbb5\">CLAIM!</style></color></link></style></style></align>\n\n<style=\"Bold\">Thirty Seconds to Mars</style> are back with their new album <style=\"Italic\">It's The End Of The World But It's A Beautiful Day</style>, out on Friday 15th September.\n\nPre-save the album now to <style=\"Bold\">claim [sprite=1] 25</style> and get ready for a <style=\"Bold\">special Beat Chaser event</style> this weekend!"
+      },
+      "id": 364,
+      "viewType": "Text",
+      "startTime": 1694520000000,
+      "endTime": 1695052800000,
+      "popup": 1,
+      "order": 14,
+      "images": {
+        "id": "1a2a09f7-0f31-424a-bea3-ac40306bc179",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/1a2a09f7-0f31-424a-bea3-ac40306bc179",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Pre-save and claim 25 Gems!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "<align=\"center\"><style=\"H1\"><style=\"Bold\"><color=#f4be4e><style=\"Link\"><link=\"deeplinkreward:501e5107-92f2-4b28-aac2-0c6913213f1b\">PRE-REGISTER!</style></color></link></style></style></align>\n\nOur <style=\"Bold\">new music game Country Star</style> is launching soon and you can pre-register to play. <style=\"Bold\">Sign up now to claim [sprite=1] 25</style>\n\nIf we reach our pre-reg goal, everyone will <style=\"Bold\">unlock a FREE song</style> in Beatstar!"
+      },
+      "id": 343,
+      "viewType": "Text",
+      "startTime": 1694689200000,
+      "endTime": 1695294000000,
+      "order": 13,
+      "images": {
+        "id": "dac1adbc-1666-48f7-ad80-b48fa6b2ae31",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/dac1adbc-1666-48f7-ad80-b48fa6b2ae31",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Pre-register and get FREE rewards!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "There are 3 new Deluxe songs available to unlock!\n• Levels - Avicii [sprite=10]\n• Sugar, We’re Goin Down - Fall Out Boy [sprite=9]\n• Feel It Still - Portugal. The Man [sprite=9]\n\n<style=\"Bold\"><color=#5a65ea><style=\"Link\"><link=\"https://discord.gg/beatstar\">Join our Discord</style></color></link></style> and vote for which song should get a Deluxe Edition next!",
+        "text": "\u0010starMileStone-75"
+      },
+      "id": 365,
+      "viewType": "Text",
+      "startTime": 1694613600000,
+      "endTime": 1695819600000,
+      "order": 12,
+      "images": {
+        "id": "c70616f8-ea14-4cd1-8e55-7020c89a46d5",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/c70616f8-ea14-4cd1-8e55-7020c89a46d5",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Unlock new Deluxe Editions!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "<align=\"center\">[sprite=40] Tue 12th - Thu 14th Sep 4pm UTC</align>\n\nBlaze the Alternative trail in this midweek Beat Chaser event to win a new track skin, cards and more!\n\n<style=\"Bold\">Grand Prize</style>: Black Ink Track Skin",
+        "text": "\u0010starMileStone-40"
+      },
+      "id": 353,
+      "viewType": "Text",
+      "startTime": 1694534400000,
+      "endTime": 1694707200000,
+      "popup": 1,
+      "order": 11,
+      "images": {
+        "id": "f1f6d2d1-ae6c-400a-8d49-5e421521c965",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/f1f6d2d1-ae6c-400a-8d49-5e421521c965",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Alt Ignition Event live now!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "Feel the retro rush! Collect 9 songs from <style=\"Bold\">Meghan Trainor</style>, <style=\"Bold\">Thirty Seconds To Mars</style>, <style=\"Bold\">Ne-Yo</style>, <style=\"Bold\">Pitbull</style> and more!\n\n<style=\"Bold\">Tracklist</style>:\n• Black And Gold - Sam Sparro [sprite=34]\n• What I Got [sprite=9] - Sublime [sprite=34]\n• Golden Skans - The Klaxons [sprite=34]\n• All About That Bass - Meghan Trainor [sprite=34]\n• Turbo [sprite=9] - The Nah [sprite=34]\n• This Is War - Thirty Seconds To Mars [sprite=34]\n• Word Up! - Cameo [sprite=34]\n• Time Of Our Lives [sprite=9] - Ne-Yo, Pitbull [sprite=34]\n• Plasma [sprite=10] - Sharks [sprite=34]",
+        "text": "\u0010starMileStone-15"
+      },
+      "id": 363,
+      "viewType": "Text",
+      "startTime": 1694167200000,
+      "endTime": 1695981600000,
+      "popup": 1,
+      "order": 9,
+      "images": {
+        "id": "d5b016d0-bbef-4068-888c-e2c95dc42220",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/d5b016d0-bbef-4068-888c-e2c95dc42220",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Tour Pass: RETRO RUSH",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "<align=\"center\"><style=\"H1\"><style=\"Bold\"><color=#f4be4e><style=\"Link\"><link=\"deeplinkreward:501e5107-92f2-4b28-aac2-0c6913213f1b\">PRE-REGISTER!</style></color></link></style></style></align>\n\nOur <style=\"Bold\">new music game Country Star</style> is launching soon and you can pre-register to play. <style=\"Bold\">Sign up now to claim [sprite=1] 25</style>\n\nIf we reach our pre-reg goal, everyone will <style=\"Bold\">unlock a FREE song</style> in Beatstar! \n\nWe've reached <style=\"Bold\">62%</style> of our goal so far!"
+      },
+      "id": 342,
+      "viewType": "Text",
+      "startTime": 1693479600000,
+      "endTime": 1694689200000,
+      "order": 6,
+      "images": {
+        "id": "1dfee9f3-c6bf-47d7-b108-8737624ff012",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/1dfee9f3-c6bf-47d7-b108-8737624ff012",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Pre-register and get FREE rewards!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "<align=\"center\"><style=\"H1\"><style=\"Bold\"><color=#f4be4e><style=\"Link\"><link=\"deeplinkreward:92158c21-56a8-43ae-b549-0aef417fe11f\">CLAIM!</style></color></link></style></style></align>\n\nYou can now personalise Beatstar with <style=\"Bold\">Avatars</style> and <style=\"Bold\">Track Skins!</style>\n\nUnlock your first skin for FREE and start building your Merch Collection now! [sprite=41]\n\n<style=\"Bold\">Tap above to claim your reward</style> and collect one of three random skins:\n• Heartbeats Pop Skin\n• Break Free Pop Skin\n• Game Time Hip Hop Skin",
+        "text": "\u0010starMileStone-10"
+      },
+      "id": 329,
+      "viewType": "Text",
+      "startTime": 1688641200000,
+      "endTime": 1893456000000,
+      "order": 4,
+      "images": {
+        "id": "3cd72bcf-a794-4a4c-9af8-3e679d85310a",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/3cd72bcf-a794-4a4c-9af8-3e679d85310a",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Claim a FREE Track Skin!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "Check out our socials for all the latest Beatstar news, giveaways, exclusive music content and more.\n\nYou'll get <style=\"Bold\">5 Wishlist Cards</style> [sprite=21] when you follow us or join our Discord!\n\n<style=\"Bold\">Follow and join us now</style>:\n• <style=\"Bold\"><color=#dd2a7b><style=\"Link\"><link=\"deeplinkreward:911051c1-19e2-4b2a-84c1-6ab805dd0c27\">Instagram</style></color></link></style>\n• <style=\"Bold\"><color=#046de3><style=\"Link\"><link=\"deeplinkreward:2962a5a8-02ba-4fb6-a794-20310478aff9\">Facebook</style></color></link></style>\n• <style=\"Bold\"><color=#1c91da><style=\"Link\"><link=\"deeplinkreward:57b7e7e7-cd35-4bb3-bb48-4624839b4c4a\">Twitter</style></color></link></style>\n• <style=\"Bold\"><color=#e71d4f><style=\"Link\"><link=\"deeplinkreward:c6eef4c1-f772-40da-89da-64ddc239682d\">TikTok</style></color></link></style>\n• <style=\"Bold\"><color=#5865f2><style=\"Link\"><link=\"deeplinkreward:c19321cc-6496-4561-bca7-6d06280cb0b8\">Discord</style></color></link></style>",
+        "text": "\u0010starMileStone-10"
+      },
+      "id": 261,
+      "viewType": "Text",
+      "startTime": 1678874400000,
+      "endTime": 1893456000000,
+      "order": 3,
+      "images": {
+        "id": "2039995c-32c2-4dc9-9056-e539f99cae30",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/2039995c-32c2-4dc9-9056-e539f99cae30",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Follow Beatstar!",
+      "status": 1
+    },
+    {
+      "type": 4,
+      "story": {
+        "html": "Do you listen to music? Do you play games? Now you can do both at the same time! \n\n<style=\"Bold\">Invite your friends to play</style> and smash their records, or <style=\"Bold\">compete against other players</style> around the world [sprite=8]\n\nDon't see your favourite song in the game? Suggest it to us on <style=\"Bold\"><color=#5865f2><style=\"Link\"><link=\"https://discord.gg/beatstar\">Discord</link></style> </style></color>so we know what you're interested in playing!\n\nNow sit back, relax, and enjoy the music."
+      },
+      "id": 75,
+      "viewType": "Text",
+      "startTime": 1630368000000,
+      "endTime": 1893456000000,
+      "order": 1,
+      "images": {
+        "id": "19db08d6-d251-4231-b8a3-26d982816a99",
+        "url": "https://assets.flamingo.apelabs.net/images/newsfeed/19db08d6-d251-4231-b8a3-26d982816a99",
+        "width": 512,
+        "height": 256,
+        "rect": {
+          "width": 512,
+          "height": 256
+        }
+      },
+      "title": "Welcome to Beatstar!",
+      "status": 1
+    }
+  ],
+  "version": "0.0.0.6137+en",
+  "id": 368
+}

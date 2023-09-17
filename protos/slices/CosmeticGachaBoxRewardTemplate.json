@@ -1,1 +1,22 @@
-{}
+{
+  "1": {
+    "name": "banners_id",
+    "type": "varint-repeat"
+  },
+  "2": {
+    "name": "emotes_id",
+    "type": "varint-repeat"
+  },
+  "3": {
+    "name": "trackSkins_id",
+    "type": "varint-repeat"
+  },
+  "4": {
+    "name": "profileIcons_id",
+    "type": "varint-repeat"
+  },
+  "6": {
+    "name": "rewardTags_id",
+    "type": "varint-repeat"
+  }
+}

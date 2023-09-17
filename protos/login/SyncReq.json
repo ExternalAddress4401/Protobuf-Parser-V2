@@ -1,4 +1,8 @@
 {
+  "1": {
+    "name": "id",
+    "type": "varint"
+  },
   "2": {
     "name": "version",
     "type": "string"
@@ -7,22 +11,52 @@
     "name": "timestamp",
     "type": "varint"
   },
+  "4": {
+    "name": "unknown",
+    "type": "string"
+  },
   "5": {
-    "name": "5",
+    "name": "something",
     "type": "group",
     "fields": {
+      "1": {
+        "name": "id",
+        "type": "varint"
+      },
+      "2": {
+        "name": "empty",
+        "type": "string"
+      },
+      "3": {
+        "name": "unknown",
+        "type": "varint"
+      },
       "4": {
-        "name": "4",
+        "name": "device",
         "type": "group",
         "fields": {
           "3": {
-            "name": "3",
+            "name": "phone",
             "type": "group",
             "fields": {
+              "1": {
+                "name": "id",
+                "type": "varint"
+              },
               "2": {
-                "name": "2",
+                "name": "info",
                 "type": "group",
                 "fields": {
+                  "1": {
+                    "name": "version",
+                    "type": "group",
+                    "fields": {
+                      "1": {
+                        "name": "version",
+                        "type": "string"
+                      }
+                    }
+                  },
                   "2": {
                     "name": "analytics_device",
                     "type": "group",
@@ -93,13 +127,101 @@
                       }
                     }
                   },
+                  "3": {
+                    "name": "flter",
+                    "type": "group",
+                    "fields": {
+                      "1": {
+                        "name": "u1",
+                        "type": "string"
+                      },
+                      "2": {
+                        "name": "u2",
+                        "type": "string"
+                      },
+                      "3": {
+                        "name": "u3",
+                        "type": "varint"
+                      }
+                    }
+                  },
                   "9": {
                     "name": "appValidationData",
                     "type": "string"
                   }
                 }
+              },
+              "3": {
+                "name": "timestamp",
+                "type": "varint"
+              },
+              "4": {
+                "name": "uuid",
+                "type": "string"
+              },
+              "5": {
+                "name": "info2",
+                "type": "group",
+                "fields": {
+                  "1": {
+                    "name": "uuid",
+                    "type": "string"
+                  },
+                  "3": {
+                    "name": "u1",
+                    "type": "varint"
+                  },
+                  "4": {
+                    "name": "uuid2",
+                    "type": "string"
+                  },
+                  "8": {
+                    "name": "u2",
+                    "type": "varint"
+                  },
+                  "9": {
+                    "name": "u3",
+                    "type": "varint"
+                  },
+                  "13": {
+                    "name": "version",
+                    "type": "string"
+                  },
+                  "14": {
+                    "name": "endpoint",
+                    "type": "string"
+                  },
+                  "15": {
+                    "name": "u4",
+                    "type": "string"
+                  }
+                }
               }
             }
+          },
+          "4": {
+            "name": "newsFeedVersion",
+            "type": "string"
+          },
+          "5": {
+            "name": "v2",
+            "type": "string"
+          },
+          "6": {
+            "name": "v3",
+            "type": "string"
+          },
+          "7": {
+            "name": "v4",
+            "type": "string"
+          },
+          "8": {
+            "name": "v5",
+            "type": "string"
+          },
+          "9": {
+            "name": "v6",
+            "type": "string"
           }
         }
       }

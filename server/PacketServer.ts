@@ -6,7 +6,7 @@ import { readProto } from "../utils/readProto";
 import fs from "fs";
 
 type EndPoints = "socket-gateway.prod.flamingo.apelabs.net";
-export type Service = "userservice" | "cmsservice";
+export type Service = "userservice" | "cmsservice" | "gameservice";
 
 interface Header {
   version: string;
@@ -50,7 +50,6 @@ class PacketServer {
       await readProto("./protos/login/LoginPacketResponse.json")
     );
     if (json.body.httpCode === 200) {
-      console.log("SUCCESSFUL AUTH!");
       this.base64 = json.body.auth.base64;
       this.id = json.body.unknown1;
       this.isAuthenticated = true;
@@ -60,7 +59,8 @@ class PacketServer {
     service: Service,
     rpcValue: number,
     body: any,
-    bodyProto: any
+    bodyProto: any,
+    extraHeader?: any
   ): Promise<Packet> {
     const self = this;
 
@@ -69,6 +69,7 @@ class PacketServer {
       version: "999.9.9.99999",
       service,
       rpc: this.getRandomRpc(rpcValue),
+      ...extraHeader,
     };
 
     if (this.isAuthenticated) {
@@ -81,15 +82,30 @@ class PacketServer {
 
     const p = packet.build();
 
-    fs.writeFileSync("./file", p);
-
     return new Promise((resolve) => {
+      let expectedLength = 0;
+      let finalData = Buffer.alloc(0);
+
       const get = async (data: any) => {
-        self.socket?.off("data", get);
-        resolve(new Packet().read(data));
+        if (!expectedLength) {
+          expectedLength = data.readUInt32BE();
+        }
+        if (data.length - 4 === expectedLength) {
+          self.socket?.off("data", get);
+          resolve(new Packet().read(data));
+          expectedLength = 0;
+        } else {
+          finalData = Buffer.concat([finalData, data]);
+          if (finalData.length - 4 === expectedLength) {
+            self.socket?.off("data", get);
+            resolve(new Packet().read(finalData));
+            expectedLength = 0;
+            finalData = Buffer.alloc(0);
+          }
+        }
       };
 
-      self.socket?.once("data", get);
+      self.socket?.on("data", get);
       self.socket?.write(p);
     });
   }
