@@ -49,7 +49,9 @@ This will return the CMS files in a parsed form.
 
 # To quickly run this
 
-1. Edit `index.ts` and add your code above the export
+1. Clone this repo
+2. Open a terminal in the cloned folder and `npm install` to get dependencies
+3. Edit `index.ts` and add your code above the export
 
 As an example we'll use
 
@@ -77,9 +79,9 @@ CMSRequester.getExtraCms();
 export { ProtobufReader, ProtobufWriter, CMSRequester };
 ```
 
-2. Save the file
-3. Open a terminal in the same folder as `index.ts`
-4. Run `npm run dev`
+4. Save the file
+5. Open a terminal in the same folder as `index.ts`
+6. Run `npm run dev`
 
 If you're running `CMSRequester.getCms()` you'll see a list of the names and links to the raw CMS files in the terminal.
 If you're running `CMSRequester.getExtraCms()` you'll find the downloaded parsed CMS files in the `fetched` folder.
