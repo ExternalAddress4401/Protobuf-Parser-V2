@@ -46,3 +46,40 @@ Some protobufs (NewsFeed, LiveOpsBundleConfig, LiveOpsDeeplinkRewardConfig, Live
 `CMSRequester.getExtraCms()`
 
 This will return the CMS files in a parsed form.
+
+# To quickly run this
+
+1. Edit `index.ts` and add your code above the export
+
+As an example we'll use
+
+```
+import ProtobufReader from "./ProtobufReader";
+import ProtobufWriter from "./ProtobufWriter";
+import * as CMSRequester from "./server/CMSRequester";
+
+type CMS =
+  | "GameConfig"
+  | "LangConfig"
+  | "AssetsPatchConfig"
+  | "AudioConfig"
+  | "NewsFeed"
+  | "ScalingConfig"
+  | "NotificationsConfig"
+  | "FontFallbackConfig"
+  | "LiveOpsBundleConfig"
+  | "LiveOpsEventConfig"
+  | "LiveOpsDeepLinkRewardConfig"
+  | "SongConfig";
+
+CMSRequester.getExtraCms();
+
+export { ProtobufReader, ProtobufWriter, CMSRequester };
+```
+
+2. Save the file
+3. Open a terminal in the same folder as `index.ts`
+4. Run `npm run dev`
+
+If you're running `CMSRequester.getCms()` you'll see a list of the names and links to the raw CMS files in the terminal.
+If you're running `CMSRequester.getExtraCms()` you'll find the downloaded parsed CMS files in the `fetched` folder.
