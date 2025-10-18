@@ -1,5 +1,5 @@
 {
-  "name": "protobuf",
+  "name": "@externaladdress4401/protobuf",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "url": "git@external:ExternalAddress4401/Protobuf-Parser-V2.git"
   },
   "publishConfig": {
-    "@ExternalAddress4401:registry": "https://npm.pkg.github.com"
+    "@externaladdress4401:registry": "https://npm.pkg.github.com"
   }
 }
