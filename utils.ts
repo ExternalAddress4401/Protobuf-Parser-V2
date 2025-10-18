@@ -13,7 +13,10 @@ export const chunk = (str: string) => {
   return result;
 };
 
-export const createEmptyResponse = (request) => {
+export const createEmptyResponse = (request: {
+  id: number;
+  rpcType: number;
+}) => {
   return {
     id: request.id,
     rpcType: request.rpcType,

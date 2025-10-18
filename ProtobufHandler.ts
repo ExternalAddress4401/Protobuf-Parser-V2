@@ -235,12 +235,12 @@ export class ProtobufHandler {
       switch (subProto.type) {
         case "varint":
           let value = json[subProto.name];
-          if (subProto.map) {
-            value = parseInt(
-              Object.keys(subProto.map).find(
-                (key) => subProto.map[key] === value
-              )
-            );
+          if (subProto.map !== undefined) {
+            const map = subProto.map;
+
+            value = Object.keys(subProto.map)
+              .map(Number)
+              .find((key) => map[key] === value);
           }
           this.writeKey(key, this.typeToWire(subProto.type));
           if (value < 0) {

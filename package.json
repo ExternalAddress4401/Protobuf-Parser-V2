@@ -10,7 +10,9 @@
   "license": "ISC",
   "description": "Beatstar makes heavy use of protobufs and not always in accepted forms. Some fields are dynamic and a type field determines what the other field names will be which isn't covered under the protobuf format explicitly. This reader aims to cover these nuances.",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.3.0",
+    "ts-jest": "^29.4.5",
     "typescript": "^5.9.2"
   },
   "directories": {
