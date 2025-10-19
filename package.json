@@ -10,18 +10,18 @@
     "dist"
   ],
   "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./responses": {
       "import": "./dist/responses/index.js",
       "types": "./dist/responses/index.d.ts"
     },
     "./responses/*": {
-      "import": "./dist/responses/index.js",
-      "types": "./dist/responses/index.d.ts"
-    },
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/responses/*.json",
+      "types": "./dist/responses/*.d.ts"
     },
     "./*": {
       "import": "./dist/*.js",
