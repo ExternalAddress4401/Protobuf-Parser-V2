@@ -10,6 +10,10 @@
     "dist"
   ],
   "exports": {
+    "./responses": {
+      "import": "./dist/responses/index.js",
+      "types": "./dist/responses/index.d.ts"
+    },
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.js",
