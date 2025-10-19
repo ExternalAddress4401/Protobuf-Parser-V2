@@ -10,7 +10,7 @@
     "dist"
   ],
   "exports": {
-    "./responses": {
+    "./responses/*": {
       "import": "./dist/responses/index.js",
       "types": "./dist/responses/index.d.ts"
     },
