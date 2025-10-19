@@ -1,7 +1,6 @@
 import fs from "fs";
 import { ProtobufHandler } from "../ProtobufHandler";
 import { SongConfigProto } from "../protos/cms/SongConfigProto";
-import { stringify } from "./utilities";
 
 const songConfig = fs.readFileSync("../tests/files/SongConfig.bytes");
 
@@ -10,7 +9,7 @@ handler.process();
 
 const songs = handler.parseProto(SongConfigProto);
 
-const syncReqBeatmaps = songs.Beatmaps.map((beatmap) => ({
+const syncReqBeatmaps = songs.Beatmaps.map((beatmap: any) => ({
   template_id: beatmap.id.toString(),
   BragState: {},
   HighestScore: {},
@@ -18,4 +17,4 @@ const syncReqBeatmaps = songs.Beatmaps.map((beatmap) => ({
   Version: 1,
 }));
 
-fs.writeFileSync("./songsout", stringify(syncReqBeatmaps));
+fs.writeFileSync("./songsout", JSON.stringify(syncReqBeatmaps, null, 2));
