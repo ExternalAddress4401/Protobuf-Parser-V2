@@ -1,9 +1,14 @@
 {
   "name": "@externaladdress4401/protobuf",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "ExternalAddress4401",
@@ -24,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ExternalAddress4401/Protobuf-Parser-V2.git"
+  },
+  "exports": {
+    "./*": "./dist/*.js"
   }
 }
