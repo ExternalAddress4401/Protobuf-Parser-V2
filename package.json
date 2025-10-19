@@ -1,27 +1,39 @@
 {
   "name": "@externaladdress4401/protobuf",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "Beatstar makes heavy use of protobufs and not always in accepted forms...",
+  "author": "ExternalAddress4401",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./*": {
+      "import": "./dist/*.js",
+      "require": "./dist/*.js",
+      "types": "./dist/*.d.ts"
+    }
+  },
   "scripts": {
     "test": "npx jest",
     "build": "tsc"
   },
   "keywords": [],
-  "author": "ExternalAddress4401",
-  "license": "ISC",
-  "description": "Beatstar makes heavy use of protobufs and not always in accepted forms. Some fields are dynamic and a type field determines what the other field names will be which isn't covered under the protobuf format explicitly. This reader aims to cover these nuances.",
+  "directories": {
+    "test": "tests"
+  },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.3.0",
     "ts-jest": "^29.4.5",
     "typescript": "^5.9.2"
-  },
-  "directories": {
-    "test": "tests"
   },
   "dependencies": {
     "undici-types": "^7.10.0"
