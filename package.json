@@ -1,6 +1,6 @@
 {
   "name": "@externaladdress4401/protobuf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Beatstar makes heavy use of protobufs and not always in accepted forms...",
   "author": "ExternalAddress4401",
   "license": "ISC",
@@ -15,7 +15,7 @@
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./responses/*": {
+    "./responses": {
       "import": "./dist/responses/*.js",
       "require": "./dist/responses/index.js",
       "types": "./dist/responses/*.d.ts"
