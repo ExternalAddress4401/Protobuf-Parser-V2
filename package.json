@@ -15,12 +15,9 @@
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./responses": {
-      "import": "./dist/responses/index.js",
-      "types": "./dist/responses/index.d.ts"
-    },
     "./responses/*": {
-      "import": "./dist/responses/*.json",
+      "import": "./dist/responses/*.js",
+      "require": "./dist/responses/index.js",
       "types": "./dist/responses/*.d.ts"
     },
     "./*": {
