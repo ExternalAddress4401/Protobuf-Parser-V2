@@ -2,7 +2,6 @@ import { CMSField } from "./interfaces/CMSField";
 import { chunk, pad } from "./utils";
 import zlib from "zlib";
 import { promisify } from "util";
-import { SongConfigProto } from "./protos/cms/SongConfigProto";
 
 type ReadWrite = "READ" | "WRITE";
 
