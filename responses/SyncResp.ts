@@ -39,7 +39,7 @@ export const createSyncResp = (placeholders: Record<string, any>) => {
                     },
                     {
                       currency_id: 7,
-                      amount: 215,
+                      amount: "{starCount}",
                     },
                     {
                       currency_id: 8,
