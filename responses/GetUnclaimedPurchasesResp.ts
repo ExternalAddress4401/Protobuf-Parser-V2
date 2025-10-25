@@ -8,7 +8,7 @@ export const createGetUnclaimedPurchasesResp = (
       id: 2,
       serverTime: "{serverTime}",
       batchHeader: {},
-      requests: [{ id: 1, rpcType: 3, body: {} }],
+      requests: "{requests}",
     },
     placeholders
   );
