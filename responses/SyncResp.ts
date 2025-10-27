@@ -53,7 +53,7 @@ export const createSyncResp = (placeholders: Record<string, any>) => {
                     {
                       showLeaderboard: true,
                       shop: [{}],
-                      selectedBeatmap_id: 3006,
+                      selectedBeatmap_id: "{selectedBeatmap}",
                       resumePoint: 8,
                       lastSongSelectionSourceType: 2,
                     },

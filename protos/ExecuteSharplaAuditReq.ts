@@ -3,6 +3,7 @@ import { RefreshBonusCardsSystem_SharplaAudit } from "./audits/RefreshBonusCards
 import { RhythmGameEnded_SharplaAudit } from "./audits/RhythmGameEnded_SharplaAudit";
 import { RhythmGameStarted_SharplaAudit } from "./audits/RhythmGameStarted_SharplaAudit";
 import { SetFtueFlag_SharplaAudit } from "./audits/SetFtueFlag_SharplaAudit";
+import { SetSelectedSong_SharplaAudit } from "./audits/SetSelectedSong_SharplaAudit";
 import { SharplaGameCmdHeader } from "./audits/SharplaGameCmdHeader";
 import { ShopSystemRefresh_SharplaAudit } from "./audits/ShopSystemRefresh_SharplaAudit";
 import { ReqHeader } from "./reused/ReqHeader";
@@ -21,6 +22,7 @@ export const ExecuteSharplaAuditReqEnums: Map<number, CMSField> = new Map([
             name: "type",
             type: "enum",
             enums: {
+              8: SetSelectedSong_SharplaAudit,
               11: RhythmGameStarted_SharplaAudit,
               12: RhythmGameEnded_SharplaAudit,
               30: ShopSystemRefresh_SharplaAudit,
