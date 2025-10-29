@@ -116,7 +116,7 @@ export class ProtobufHandler {
             while (booleanBuffer.hasMore()) {
               booleans.push(Boolean(booleanBuffer.readByte()));
             }
-            dict[cmsRow.name] = varints;
+            dict[cmsRow.name] = booleans;
             break;
           case "string":
             dict[cmsRow.name] = protoData[key].map((el: string) =>
