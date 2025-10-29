@@ -68,65 +68,7 @@ export const createSyncResp = (placeholders: Record<string, any>) => {
                       country: "ca",
                     },
                   ],
-                  roosters: [
-                    {
-                      queryStrings: [
-                        "es_16_1659952800000",
-                        "es_1364227782_1683820800000",
-                        "es_770195297_1690819200000",
-                        "es_82042298_1691683200000",
-                        "nspl_1",
-                        "nspl_2",
-                        "nspl_3",
-                        "s_1032",
-                        "s_2626",
-                        "es_3980532_1742220000000",
-                        "es_1896749423_1742227200000",
-                        "s_2648",
-                        "s_2185",
-                        "s_2689",
-                        "lns_c1c667dc41bf40308f93476057fe9847",
-                        "s_2258",
-                        "o_9026",
-                        "lns_fc4b647f602f42a3a51c9116913aa9f1",
-                        "s_3006",
-                        "es_135895734_1756483200000",
-                        "es_1860420446_1756476000000",
-                        "es_1_1756130400000",
-                      ],
-                      dates: [
-                        {
-                          key: 2,
-                          timeMsecs: 1733873934351,
-                        },
-                        {
-                          key: 1,
-                          timeMsecs: 1697906541979,
-                        },
-                      ],
-                      stringdates: [
-                        {
-                          key: "lnd_261",
-                          dateMsecs: 1689264436713,
-                        },
-                        {
-                          dateMsecs: 1724458390772,
-                        },
-                        {
-                          key: "lnd_75",
-                          dateMsecs: 1724458494415,
-                        },
-                        {
-                          key: "lnd_c1c667dc41bf40308f93476057fe9847",
-                          dateMsecs: 1746377883927,
-                        },
-                        {
-                          key: "lnd_fc4b647f602f42a3a51c9116913aa9f1",
-                          dateMsecs: 1755553073439,
-                        },
-                      ],
-                    },
-                  ],
+                  roosters: [],
                   randoms: [
                     {
                       songSelectorSeed: 1219728585,
