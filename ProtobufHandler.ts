@@ -55,7 +55,7 @@ export class ProtobufHandler {
           break;
         default:
           console.log("Unknown wire: " + wire);
-          console.log(this.buffer);
+          console.log(this.buffer.toString('hex'));
           process.exit();
       }
     }
