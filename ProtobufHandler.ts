@@ -54,9 +54,7 @@ export class ProtobufHandler {
           dict[key] = this.readFloat();
           break;
         default:
-          console.log("Unknown wire: " + wire);
-          console.log(this.buffer.toString('hex'));
-          process.exit();
+          return null;
       }
     }
 
