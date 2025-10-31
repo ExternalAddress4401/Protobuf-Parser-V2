@@ -146,6 +146,9 @@ export class ProtobufHandler {
             for (const row of protoData[key]) {
               const groupHandler = new ProtobufHandler("READ", row);
               const subDict = groupHandler.process();
+              if (!subDict) {
+                break;
+              }
               dict[cmsRow.name].push(
                 groupHandler.parseProto(cmsRow.fields, subDict.dict)
               );
@@ -164,7 +167,9 @@ export class ProtobufHandler {
               );
 
               const subDict = subBuffer.process();
-
+              if (!subDict) {
+                break;
+              }
               dict[cmsRow.name].push(
                 groupHandler.parseProto(cmsRow.fields, subDict.dict)
               );
