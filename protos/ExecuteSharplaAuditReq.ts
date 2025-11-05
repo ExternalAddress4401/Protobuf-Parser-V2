@@ -6,6 +6,7 @@ import { SetFtueFlag_SharplaAudit } from "./audits/SetFtueFlag_SharplaAudit";
 import { SetSelectedSong_SharplaAudit } from "./audits/SetSelectedSong_SharplaAudit";
 import { SharplaGameCmdHeader } from "./audits/SharplaGameCmdHeader";
 import { ShopSystemRefresh_SharplaAudit } from "./audits/ShopSystemRefresh_SharplaAudit";
+import { SetPlayerCustomization_SharplaAudit } from "./audits/SetPlayerCustomization_SharplaAudit";
 import { ReqHeader } from "./reused/ReqHeader";
 import { ReqPayload } from "./reused/ReqPayload";
 
@@ -28,6 +29,7 @@ export const ExecuteSharplaAuditReqEnums: Map<number, CMSField> = new Map([
               30: ShopSystemRefresh_SharplaAudit,
               33: SetFtueFlag_SharplaAudit,
               58: RefreshBonusCardsSystem_SharplaAudit,
+              100: SetPlayerCustomization_SharplaAudit,
             },
           },
         ],

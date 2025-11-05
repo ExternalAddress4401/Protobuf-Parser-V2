@@ -12,6 +12,7 @@ import { ReactivationBundlesHistoryTO } from "../../../../../chunks/Reactivation
 import { RewardsTO } from "../../../../../enums/RewardsTO";
 import { BeatmapsTO } from "./BeatmapsTO";
 import { CurrencyAmountTO } from "./CurrencyAmountTO";
+import { PlayerCustomizationTO } from "./PlayerCustomizationsTO";
 import { PlayerTrackSkinsTO } from "./PlayerTrackSkinsTO";
 import { PurchasingProfileTO } from "./PurchasingProfileTO";
 import { ThemedBoxProfileTO } from "./ThemedBoxProfileTO";
@@ -735,7 +736,7 @@ export const MyProfileTO: Map<number, CMSField> = new Map([
     {
       name: "playerCustomizations",
       type: "group",
-      fields: new Map([]),
+      fields: PlayerCustomizationTO,
     },
   ],
   [

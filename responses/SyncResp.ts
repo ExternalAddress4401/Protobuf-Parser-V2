@@ -1501,7 +1501,7 @@ export const createSyncResp = (placeholders: Record<string, any>) => {
                       type: 8,
                     },
                   ],
-                  playerCustomizations: [{}],
+                  playerCustomizations: "{playerCustomizations}",
                   adTotaliser: [
                     {
                       totaliserStartTimeMsecs: 1716565690388,
