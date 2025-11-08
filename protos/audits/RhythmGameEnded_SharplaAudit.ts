@@ -124,4 +124,7 @@ export const RhythmGameEnded_SharplaAudit: Map<number, CMSField> = new Map([
     },
   ],
   [25, { name: "eventPoint", type: "varint" }],
+  // custom fields
+  [26, { name: "difficulty", type: "varint" }],
+  [27, { name: "isDeluxe", type: "boolean" }],
 ]);
