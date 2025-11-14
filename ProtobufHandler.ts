@@ -304,11 +304,12 @@ export class ProtobufHandler {
           this.writeBuffer(floatBuffer.getUsed());
           break;
         case "group":
-          if (!Array.isArray(json[subProto.name])) {
-            json[subProto.name] = [json[subProto.name]];
+          let rows = json[subProto.name];
+          if (!Array.isArray(rows)) {
+            rows = [rows];
           }
-          if (json[subProto.name]) {
-            for (const group of json[subProto.name]) {
+          if (rows) {
+            for (const group of rows) {
               const subHandler = new ProtobufHandler("WRITE");
               const used = await subHandler.writeProto(group, subProto.fields);
               this.writeKey(key, this.typeToWire(subProto.type));
