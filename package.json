@@ -1,9 +1,9 @@
 {
-  "name": "@externaladdress4401/protobuf",
-  "version": "0.1.7",
-  "description": "Beatstar makes heavy use of protobufs and not always in accepted forms...",
+  "name": "@externaladdress4401/beatstar-protobuf",
+  "version": "1.0.0",
+  "description": "A protobuf parser made for Beatstar",
   "author": "ExternalAddress4401",
-  "license": "ISC",
+  "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.3.0",
+    "@types/node": "^24.12.2",
     "ts-jest": "^29.4.5",
     "typescript": "^5.9.2"
   },

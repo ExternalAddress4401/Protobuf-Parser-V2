@@ -3,6 +3,7 @@ import { LiveOpsTrackSkinSettings } from "../game/com/spaceape/liveopstrackskinc
 import { LiveOpsTrackSkinTemplate } from "../game/com/spaceape/liveopstrackskinconfig/LiveOpsTrackSkinTemplate";
 
 export const LiveOpsTrackSkinConfigProto: Map<number, CMSField> = new Map([
+  [100, { name: "version", type: "string" }],
   [
     5,
     {
@@ -19,5 +20,4 @@ export const LiveOpsTrackSkinConfigProto: Map<number, CMSField> = new Map([
       fields: LiveOpsTrackSkinTemplate,
     },
   ],
-  [100, { name: "version", type: "string" }],
 ]);
