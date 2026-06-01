@@ -1,6 +1,6 @@
 {
   "name": "@externaladdress4401/beatstar-protobuf",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A protobuf parser made for Beatstar",
   "author": "ExternalAddress4401",
   "license": "MIT",
