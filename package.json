@@ -1,6 +1,6 @@
 {
   "name": "@externaladdress4401/beatstar-protobuf",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A protobuf parser made for Beatstar",
   "author": "ExternalAddress4401",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "test": "npx jest",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "publish": "npm pack && npm publish --access public"
+    "release": "npm pack && npm publish --access public"
   },
   "keywords": [],
   "directories": {
